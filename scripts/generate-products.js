@@ -66,6 +66,9 @@ async function fetchAllPages() {
 async function main() {
 
     const pages = await fetchAllPages();
+    
+    console.log(JSON.stringify(pages[0].properties["SKU"], null, 2));
+    return;
 
     const products = pages.map(page => {
 
