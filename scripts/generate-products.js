@@ -66,14 +66,21 @@ async function fetchAllPages() {
 async function main() {
 
     const pages = await fetchAllPages();
-    
-    console.log(JSON.stringify(pages[0].properties["SKU"], null, 2));
-    return;
 
     const products = pages.map(page => {
 
         const category = getSelect(page, "Kategori");
         const sku = getRichText(page, "SKU");
+
+        if (sku.length < 4) {
+            console.log("========== HATALI SKU ==========");
+            console.log("Ürün:", getTitle(page, "Ürün Adı"));
+            console.log("SKU:", sku);
+            console.log("SKU Property:");
+            console.log(JSON.stringify(page.properties["SKU"], null, 2));
+            console.log("===============================");
+        }
+
 
         return {
 
