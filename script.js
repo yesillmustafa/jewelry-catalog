@@ -16,11 +16,19 @@ let currentProduct = null;
 let currentLightboxImage = 0;
 
 let touchStartX = 0;
+let touchStartY = 0;
+
 let touchEndX = 0;
+let touchEndY = 0;
 
-function updateLightbox() {
+let touchCurrentY = 0;
+let isDragging = false;
+let isSliding = false;
 
-    if (!currentProduct) return;
+const SWIPE_THRESHOLD = 50;
+const CLOSE_THRESHOLD = 100;
+
+function updateLightbox(){
 
     lightboxImg.src =
         `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
@@ -30,20 +38,52 @@ function updateLightbox() {
 
 }
 
-function changeLightboxImage(direction) {
+function changeLightboxImage(direction){
 
-    if (!currentProduct) return;
+    if(isSliding) return;
 
-    currentLightboxImage += direction;
+    isSliding = true;
 
-    if (currentLightboxImage >= currentProduct.images.length)
-        currentLightboxImage = 0;
+    const offset = direction > 0 ? -80 : 80;
 
-    if (currentLightboxImage < 0)
-        currentLightboxImage =
-            currentProduct.images.length - 1;
+    // Çıkış
+    lightboxImg.style.transform = `translateX(${offset}px)`;
+    lightboxImg.style.opacity = "0";
 
-    updateLightbox();
+    setTimeout(() => {
+
+        currentLightboxImage += direction;
+
+        if(currentLightboxImage >= currentProduct.images.length)
+            currentLightboxImage = 0;
+
+        if(currentLightboxImage < 0)
+            currentLightboxImage = currentProduct.images.length - 1;
+
+        updateLightbox();
+
+        lightboxImg.style.transition = "none";
+        lightboxImg.style.transform = `translateX(${-offset}px)`;
+
+        lightboxImg.offsetHeight;
+
+        lightboxImg.style.transition =
+            "transform .25s ease, opacity .25s ease";
+
+        requestAnimationFrame(() => {
+
+            lightboxImg.style.transform = "translateX(0)";
+            lightboxImg.style.opacity = "1";
+
+        });
+
+        setTimeout(() => {
+
+            isSliding = false;
+
+        },250);
+
+    },125);
 
 }
 
@@ -64,7 +104,10 @@ function closeLightbox(){
 
     lightbox.classList.remove("active");
 
-    document.body.style.overflow="";
+    document.body.style.overflow = "";
+
+    lightboxImg.style.transform = "translateX(0)";
+    lightbox.style.background = "rgba(0,0,0,.92)";
 
 }
 
@@ -350,25 +393,78 @@ document.addEventListener("keydown", (e) => {
 lightboxImg.addEventListener("touchstart", (e) => {
 
     touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+
+    isDragging = false;
+
+    lightboxImg.style.transition = "none";
+
+}, { passive: true });
+
+lightboxImg.addEventListener("touchmove", (e) => {
+
+    touchCurrentY = e.changedTouches[0].screenY;
+
+    const deltaY = touchCurrentY - touchStartY;
+    const deltaX = e.changedTouches[0].screenX - touchStartX;
+
+    // Dikey hareket baskınsa resmi parmakla birlikte sürükle
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+
+        isDragging = true;
+
+        lightboxImg.style.transform = `translateY(${deltaY}px)`;
+
+        lightbox.style.background =
+            `rgba(0,0,0,${0.92 - Math.min(Math.abs(deltaY) / 500, 0.5)})`;
+
+    }
 
 }, { passive: true });
 
 lightboxImg.addEventListener("touchend", (e) => {
 
     touchEndX = e.changedTouches[0].screenX;
+    touchEndY = e.changedTouches[0].screenY;
 
-    const distance = touchStartX - touchEndX;
+    const deltaX = touchStartX - touchEndX;
+    const deltaY = touchEndY - touchStartY;
 
-    // Çok kısa hareketleri yok say
-    if (Math.abs(distance) < 50) return;
+    lightboxImg.style.transition = "transform .25s ease";
+    lightbox.style.transition = "background .25s ease";
 
-    if (distance > 0) {
+    if (isDragging) {
 
-        changeLightboxImage(1);
+        if (Math.abs(deltaY) > CLOSE_THRESHOLD) {
 
-    } else {
+            closeLightbox();
 
-        changeLightboxImage(-1);
+        } else {
+
+            lightboxImg.style.transform = "translateY(0)";
+            lightbox.style.background = "rgba(0,0,0,.92)";
+
+        }
+
+        return;
+
+    }
+
+    // Sağa-sola swipe ile fotoğraf değiştir
+    if (
+        Math.abs(deltaX) > SWIPE_THRESHOLD &&
+        Math.abs(deltaX) > Math.abs(deltaY)
+    ) {
+
+        if (deltaX > 0) {
+
+            changeLightboxImage(1);
+
+        } else {
+
+            changeLightboxImage(-1);
+
+        }
 
     }
 
