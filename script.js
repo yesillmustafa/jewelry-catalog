@@ -30,8 +30,7 @@ const CLOSE_THRESHOLD = 100;
 
 function updateLightbox(){
 
-    lightboxImg.src =
-        `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
+    lightboxImg.src = currentProduct.images[currentLightboxImage];
 
     counter.textContent =
         `${currentLightboxImage + 1} / ${currentProduct.images.length}`;
@@ -148,7 +147,7 @@ function renderProducts(products) {
 
                 <img
                     loading="lazy"
-                    src="images/${product.category}/${product.sku}/${product.images[0]}"
+                    src="${product.images[0]}"
                     alt="${product.name}"
                 >
 
@@ -186,8 +185,7 @@ function renderProducts(products) {
 
         function showImage() {
 
-            img.src =
-                `images/${product.category}/${product.sku}/${product.images[currentImage]}`;
+            img.src = product.images[currentImage];
 
         }
 
