@@ -1,6 +1,6 @@
 # 💎 Marevia Jewelry Catalog
 
-[![Live Catalog](https://img.shields.io/badge/Live-Catalog-gold?style=for-the-badge)](https://yesillmustafa.github.io/Marevia-Catalog/)
+[![Live Catalog](https://img.shields.io/badge/Live-Catalog-gold?style=for-the-badge)](https://yesillmustafa.github.io/jewelry-catalog/)
 
 A personal jewelry catalog built with **HTML**, **CSS**, **Vanilla JavaScript**, **Notion API**, and **GitHub Actions**.
 
