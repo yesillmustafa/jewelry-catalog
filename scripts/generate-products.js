@@ -1,5 +1,6 @@
 import { Client } from "@notionhq/client";
 import fs from "fs";
+import path from "path";
 
 const notion = new Client({
     auth: process.env.NOTION_TOKEN,
@@ -21,6 +22,22 @@ function getSelect(page, property) {
 
 function getNumber(page, property) {
     return page.properties[property]?.number ?? 0;
+}
+
+function getImages(category, sku) {
+
+    const folder = path.join("images", category, sku);
+
+    if (!fs.existsSync(folder)) {
+        console.warn(`⚠ Görsel klasörü bulunamadı: ${folder}`);
+        return [];
+    }
+
+    return fs
+        .readdirSync(folder)
+        .filter(file => /\.(webp|jpg|jpeg|png)$/i.test(file))
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+        .map(file => `images/${category}/${sku}/${file}`);
 }
 
 async function fetchAllPages() {
@@ -50,14 +67,25 @@ async function main() {
 
     const pages = await fetchAllPages();
 
-    const products = pages.map(page => ({
+    const products = pages.map(page => {
 
-        name: getTitle(page, "Ürün Adı"),
-        sku: getRichText(page, "SKU"),
-        category: getSelect(page, "Kategori"),
-        price: getNumber(page, "Satış Fiyatı (TR)"),
+        const category = getSelect(page, "Kategori");
+        const sku = getRichText(page, "SKU");
 
-    }));
+        return {
+
+            name: getTitle(page, "Ürün Adı"),
+            sku,
+            category,
+            price: getNumber(page, "Satış Fiyatı (TR)"),
+
+            images: getImages(category, sku),
+
+        };
+
+    });
+
+    products.sort((a, b) => a.sku.localeCompare(b.sku));
 
     fs.writeFileSync(
         "products.json",
@@ -65,7 +93,10 @@ async function main() {
         "utf8"
     );
 
-    console.log(`${products.length} ürün products.json dosyasına yazıldı.`);
+    console.log(`✅ ${products.length} ürün products.json dosyasına yazıldı.`);
 }
 
-main().catch(console.error);
+main().catch(error => {
+    console.error(error);
+    process.exit(1);
+});
