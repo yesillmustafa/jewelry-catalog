@@ -22,3 +22,8 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      - name: Upload products.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: products-json
+          path: products.json

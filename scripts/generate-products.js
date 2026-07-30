@@ -1,4 +1,5 @@
 import { Client } from "@notionhq/client";
+import fs from "fs";
 
 const notion = new Client({
     auth: process.env.NOTION_TOKEN,
@@ -6,23 +7,65 @@ const notion = new Client({
 
 const DATABASE_ID = process.env.NOTION_DATABASE_ID;
 
+function getTitle(page, property) {
+    return page.properties[property]?.title?.[0]?.plain_text ?? "";
+}
+
+function getRichText(page, property) {
+    return page.properties[property]?.rich_text?.[0]?.plain_text ?? "";
+}
+
+function getSelect(page, property) {
+    return page.properties[property]?.select?.name ?? "";
+}
+
+function getNumber(page, property) {
+    return page.properties[property]?.number ?? 0;
+}
+
+async function fetchAllPages() {
+
+    let results = [];
+    let cursor = undefined;
+
+    do {
+
+        const response = await notion.databases.query({
+            database_id: DATABASE_ID,
+            start_cursor: cursor,
+        });
+
+        results.push(...response.results);
+
+        cursor = response.has_more
+            ? response.next_cursor
+            : undefined;
+
+    } while (cursor);
+
+    return results;
+}
+
 async function main() {
 
-    const response = await notion.databases.query({
-        database_id: DATABASE_ID
-    });
+    const pages = await fetchAllPages();
 
-    console.log(`Toplam ürün: ${response.results.length}`);
+    const products = pages.map(page => ({
 
-    for (const page of response.results) {
+        name: getTitle(page, "Ürün Adı"),
+        sku: getRichText(page, "SKU"),
+        category: getSelect(page, "Kategori"),
+        price: getNumber(page, "Satış Fiyatı (TR)"),
 
-        const sku =
-            page.properties?.SKU?.rich_text?.[0]?.plain_text ??
-            page.properties?.SKU?.title?.[0]?.plain_text ??
-            "";
+    }));
 
-        console.log(sku);
-    }
+    fs.writeFileSync(
+        "products.json",
+        JSON.stringify(products, null, 2),
+        "utf8"
+    );
+
+    console.log(`${products.length} ürün products.json dosyasına yazıldı.`);
 }
 
 main().catch(console.error);
