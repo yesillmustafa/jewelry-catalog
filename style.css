@@ -106,25 +106,31 @@ header {
 /* ===========================
    SEARCH
 =========================== */
-
-#search{
-
-    width:280px;
-
-    padding:10px 18px;
-
-    border:none;
-
-    border-radius:30px;
-
-    background:#f5f5f5;
-
-    font-size:15px;
-
-    margin-left:40px;
-
+.search-box{
+    position: relative;
+    width: 300px;
+    flex-shrink: 0;
 }
 
+#search{
+    width:100%;
+    box-sizing:border-box;
+
+    padding:10px 18px 10px 45px;
+
+    border:none;
+    border-radius:30px;
+    background:#f5f5f5;
+    font-size:15px;
+}
+
+.search-icon{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
 
 /* ===========================
    CATEGORIES
@@ -546,16 +552,10 @@ header {
         padding:12px 15px;
 
     }
-    #search{
-
+    .search-box{
         width:100%;
-
         max-width:none;
-
-        margin:0;
-
         order:1;
-
     }
     #categories{
 

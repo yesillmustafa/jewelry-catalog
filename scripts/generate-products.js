@@ -2,16 +2,40 @@ import { Client } from "@notionhq/client";
 import fs from "fs";
 import path from "path";
 
+// ======================================================
+// Notion Client
+// ======================================================
+
 const notion = new Client({
     auth: process.env.NOTION_TOKEN,
 });
 
 const DATABASE_ID = process.env.NOTION_DATABASE_ID;
 
+// ======================================================
+// Notion Property Names
+// (Sütun adlarını tek yerden yönetmek için)
+// ======================================================
+
+const PROPERTIES = {
+    NAME: "Ürün Adı",
+    SKU: "SKU",
+    CATEGORY: "Kategori",
+    PRICE: "Satış Fiyatı (TR)",
+};
+
+// ======================================================
+// Property Helpers
+// ======================================================
+
+// Title alanını oku
 function getTitle(page, property) {
     return page.properties[property]?.title?.[0]?.plain_text ?? "";
 }
 
+// Rich Text alanını oku
+// Notion bazen metni birden fazla parçaya bölebiliyor.
+// (Örneğin bold yapılmış SKU'lar)
 function getRichText(page, property) {
     return (
         page.properties[property]?.rich_text
@@ -20,14 +44,21 @@ function getRichText(page, property) {
     ).trim();
 }
 
+// Select alanını oku
 function getSelect(page, property) {
     return page.properties[property]?.select?.name ?? "";
 }
 
+// Number alanını oku
 function getNumber(page, property) {
     return page.properties[property]?.number ?? 0;
 }
 
+// ======================================================
+// Product Images
+// ======================================================
+
+// images/Kategori/SKU klasöründeki görselleri oku
 function getImages(category, sku) {
 
     const folder = path.join("images", category, sku);
@@ -44,6 +75,11 @@ function getImages(category, sku) {
         .map(file => `images/${category}/${sku}/${file}`);
 }
 
+// ======================================================
+// Fetch All Pages From Notion
+// ======================================================
+
+// Veritabanındaki tüm sayfaları sayfalama desteğiyle getir
 async function fetchAllPages() {
 
     let results = [];
@@ -67,31 +103,25 @@ async function fetchAllPages() {
     return results;
 }
 
+// ======================================================
+// Main
+// ======================================================
+
 async function main() {
 
     const pages = await fetchAllPages();
 
     const products = pages.map(page => {
 
-        const category = getSelect(page, "Kategori");
-        const sku = getRichText(page, "SKU");
-
-        if (sku.length < 4) {
-            console.log("========== HATALI SKU ==========");
-            console.log("Ürün:", getTitle(page, "Ürün Adı"));
-            console.log("SKU:", sku);
-            console.log("SKU Property:");
-            console.log(JSON.stringify(page.properties["SKU"], null, 2));
-            console.log("===============================");
-        }
-
+        const category = getSelect(page, PROPERTIES.CATEGORY);
+        const sku = getRichText(page, PROPERTIES.SKU);
 
         return {
 
-            name: getTitle(page, "Ürün Adı"),
+            name: getTitle(page, PROPERTIES.NAME),
             sku,
             category,
-            price: getNumber(page, "Satış Fiyatı (TR)"),
+            price: getNumber(page, PROPERTIES.PRICE),
 
             images: getImages(category, sku),
 
@@ -99,8 +129,10 @@ async function main() {
 
     });
 
+    // Ürünleri SKU'ya göre sırala
     products.sort((a, b) => a.sku.localeCompare(b.sku));
 
+    // products.json oluştur
     fs.writeFileSync(
         "products.json",
         JSON.stringify(products, null, 2),
@@ -109,6 +141,10 @@ async function main() {
 
     console.log(`✅ ${products.length} ürün products.json dosyasına yazıldı.`);
 }
+
+// ======================================================
+// Run
+// ======================================================
 
 main().catch(error => {
     console.error(error);

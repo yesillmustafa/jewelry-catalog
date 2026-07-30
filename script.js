@@ -115,13 +115,21 @@ function closeLightbox(){
 // ===============================
 
 fetch("products.json")
-    .then(response => response.json())
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("products.json yüklenemedi.");
+        }
+        return response.json();
+    })
     .then(products => {
-
         allProducts = products;
-
         renderProducts(products);
+    })
+    .catch(error => {
+        console.error(error);
 
+        productContainer.innerHTML =
+            "<p>Ürünler yüklenirken bir hata oluştu.</p>";
     });
 
 // ===============================
@@ -161,7 +169,9 @@ function renderProducts(products) {
 
                 <p class="sku">Ürün Kodu : ${product.sku}</p>
 
-                <p class="price">${product.price}</p>
+                <p class="price">
+                    ${Number(product.price).toLocaleString("tr-TR")} ₺
+                </p>
 
             </div>
 
@@ -296,14 +306,13 @@ categoryButtons.forEach(button => {
         filterProducts();
 
         // Ürünlerin başına yumuşak kaydır
-        const products = document.getElementById("products");
         const toolbar = document.querySelector(".toolbar");
 
         const offset = toolbar.offsetHeight + 20;
 
         window.scrollTo({
 
-            top: products.offsetTop - offset,
+            top: productContainer.offsetTop - offset,
             behavior: "smooth"
 
         });

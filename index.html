@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
@@ -40,11 +44,15 @@
 
         </div>
 
-        <input
-            id="search"
-            type="text"
-            placeholder="🔍 Ürünleri ara..."
-        >
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input
+                id="search"
+                type="text"
+                placeholder="Ürünleri ara..."
+                autocomplete="off"
+            >
+        </div>
 
     </div>
 
@@ -70,7 +78,7 @@
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
 </body>
 
