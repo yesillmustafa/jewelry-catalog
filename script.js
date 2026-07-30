@@ -4,6 +4,8 @@ const searchInput = document.getElementById("search");
 
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
+const counter = document.querySelector(".lightbox-counter");
+
 const closeBtn = document.getElementById("close");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
@@ -15,6 +17,56 @@ let currentLightboxImage = 0;
 
 let touchStartX = 0;
 let touchEndX = 0;
+
+function updateLightbox() {
+
+    if (!currentProduct) return;
+
+    lightboxImg.src =
+        `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
+
+    counter.textContent =
+        `${currentLightboxImage + 1} / ${currentProduct.images.length}`;
+
+}
+
+function changeLightboxImage(direction) {
+
+    if (!currentProduct) return;
+
+    currentLightboxImage += direction;
+
+    if (currentLightboxImage >= currentProduct.images.length)
+        currentLightboxImage = 0;
+
+    if (currentLightboxImage < 0)
+        currentLightboxImage =
+            currentProduct.images.length - 1;
+
+    updateLightbox();
+
+}
+
+function openLightbox(product, imageIndex = 0) {
+
+    currentProduct = product;
+    currentLightboxImage = imageIndex;
+
+    document.body.style.overflow = "hidden";
+
+    lightbox.classList.add("active");
+
+    updateLightbox();
+
+}
+
+function closeLightbox(){
+
+    lightbox.classList.remove("active");
+
+    document.body.style.overflow="";
+
+}
 
 // ===============================
 // JSON
@@ -43,7 +95,6 @@ function renderProducts(products) {
         let currentImage = 0;
 
         const card = document.createElement("div");
-
         card.className = "card";
 
         card.innerHTML = `
@@ -53,6 +104,7 @@ function renderProducts(products) {
                 <button class="arrow left">&#10094;</button>
 
                 <img
+                    loading="lazy"
                     src="images/${product.category}/${product.sku}/${product.images[0]}"
                     alt="${product.name}"
                 >
@@ -65,7 +117,7 @@ function renderProducts(products) {
 
                 <h2>${product.name}</h2>
 
-                <p class="sku">SKU : ${product.sku}</p>
+                <p class="sku">Ürün Kodu : ${product.sku}</p>
 
                 <p class="price">${product.price}</p>
 
@@ -74,55 +126,19 @@ function renderProducts(products) {
         `;
 
         const img = card.querySelector("img");
-
-        img.addEventListener("touchstart", (e) => {
-
-    touchStartX = e.changedTouches[0].screenX;
-
-});
-
-img.addEventListener("touchend", (e) => {
-
-    touchEndX = e.changedTouches[0].screenX;
-
-    handleSwipe();
-
-});
-
-function handleSwipe() {
-
-    const distance = touchStartX - touchEndX;
-
-    // sola kaydır
-    if (distance > 50) {
-
-        currentImage++;
-
-        if (currentImage >= product.images.length)
-            currentImage = 0;
-
-        showImage();
-
-    }
-
-    // sağa kaydır
-    if (distance < -50) {
-
-        currentImage--;
-
-        if (currentImage < 0)
-            currentImage = product.images.length - 1;
-
-        showImage();
-
-    }
-
-}
-
         const left = card.querySelector(".left");
-
         const right = card.querySelector(".right");
 
+        // Tek fotoğraf varsa okları gizle
+        if (product.images.length <= 1) {
+
+            left.style.display = "none";
+            right.style.display = "none";
+
+        }
+
+        // ---------------------
+        // Fotoğrafı Güncelle
         // ---------------------
 
         function showImage() {
@@ -133,9 +149,12 @@ function handleSwipe() {
         }
 
         // ---------------------
+        // Sonraki Fotoğraf
+        // ---------------------
 
         right.addEventListener("click", (e) => {
 
+            e.preventDefault();
             e.stopPropagation();
 
             currentImage++;
@@ -151,9 +170,12 @@ function handleSwipe() {
         });
 
         // ---------------------
+        // Önceki Fotoğraf
+        // ---------------------
 
         left.addEventListener("click", (e) => {
 
+            e.preventDefault();
             e.stopPropagation();
 
             currentImage--;
@@ -174,15 +196,7 @@ function handleSwipe() {
 
         img.addEventListener("click", () => {
 
-            currentProduct = product;
-
-            currentLightboxImage = currentImage;
-
-            lightbox.style.display = "flex";
-
-            lightboxImg.src =
-                `images/${product.category}/${product.sku}/${product.images[currentLightboxImage]}`;
-
+           openLightbox(product, currentImage);
         });
 
         productContainer.appendChild(card);
@@ -240,6 +254,19 @@ categoryButtons.forEach(button => {
 
         filterProducts();
 
+        // Ürünlerin başına yumuşak kaydır
+        const products = document.getElementById("products");
+        const toolbar = document.querySelector(".toolbar");
+
+        const offset = toolbar.offsetHeight + 20;
+
+        window.scrollTo({
+
+            top: products.offsetTop - offset,
+            behavior: "smooth"
+
+        });
+
     });
 
 });
@@ -256,7 +283,7 @@ searchInput.addEventListener("input", filterProducts);
 
 closeBtn.addEventListener("click", () => {
 
-    lightbox.style.display = "none";
+    closeLightbox();
 
 });
 
@@ -264,7 +291,7 @@ lightbox.addEventListener("click", e => {
 
     if (e.target === lightbox) {
 
-        lightbox.style.display = "none";
+        closeLightbox();
 
     }
 
@@ -276,18 +303,7 @@ lightbox.addEventListener("click", e => {
 
 nextBtn.addEventListener("click", () => {
 
-    if (!currentProduct) return;
-
-    currentLightboxImage++;
-
-    if (currentLightboxImage >= currentProduct.images.length) {
-
-        currentLightboxImage = 0;
-
-    }
-
-    lightboxImg.src =
-        `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
+    changeLightboxImage(1);
 
 });
 
@@ -297,26 +313,45 @@ nextBtn.addEventListener("click", () => {
 
 prevBtn.addEventListener("click", () => {
 
-    if (!currentProduct) return;
+    changeLightboxImage(-1);
 
-    currentLightboxImage--;
+});
 
-    if (currentLightboxImage < 0) {
+// ===============================
+// Lightbox Klavye Destegi
+// ===============================
 
-        currentLightboxImage = currentProduct.images.length - 1;
+document.addEventListener("keydown", (e) => {
+
+    if (!lightbox.classList.contains("active")) return;
+
+    switch (e.key) {
+
+        case "ArrowRight":
+            changeLightboxImage(1);
+            break;
+
+        case "ArrowLeft":
+            changeLightboxImage(-1);
+            break;
+
+        case "Escape":
+            closeLightbox();
+            break;
 
     }
 
-    lightboxImg.src =
-        `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
-
 });
+
+// ===============================
+// Swipe
+// ==========
 
 lightboxImg.addEventListener("touchstart", (e) => {
 
     touchStartX = e.changedTouches[0].screenX;
 
-});
+}, { passive: true });
 
 lightboxImg.addEventListener("touchend", (e) => {
 
@@ -324,27 +359,17 @@ lightboxImg.addEventListener("touchend", (e) => {
 
     const distance = touchStartX - touchEndX;
 
-    // sola kaydır
-    if (distance > 50) {
+    // Çok kısa hareketleri yok say
+    if (Math.abs(distance) < 50) return;
 
-        currentLightboxImage++;
+    if (distance > 0) {
 
-        if (currentLightboxImage >= currentProduct.images.length)
-            currentLightboxImage = 0;
+        changeLightboxImage(1);
 
-    }
+    } else {
 
-    // sağa kaydır
-    else if (distance < -50) {
-
-        currentLightboxImage--;
-
-        if (currentLightboxImage < 0)
-            currentLightboxImage = currentProduct.images.length - 1;
+        changeLightboxImage(-1);
 
     }
 
-    lightboxImg.src =
-        `images/${currentProduct.category}/${currentProduct.sku}/${currentProduct.images[currentLightboxImage]}`;
-
-});
+}, { passive: true });

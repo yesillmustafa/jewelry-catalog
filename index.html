@@ -19,31 +19,32 @@
 
     <header>
 
-        <h1>Marevia Jewelry</h1>
+        <div class="banner">
+            <img src="assets/banner.png" alt="Marevia Jewelry">
+        </div>
 
-        <input
-            type="text"
-            id="search"
-            placeholder="Search products..."
-        >
+    </header>
+
+    <div class="toolbar">
 
         <div id="categories">
 
             <button class="active">Tümü</button>
-
             <button>Küpe</button>
-
             <button>Kolye</button>
-
             <button>Bileklik</button>
-
             <button>Şahmeran</button>
-
             <button>Halhal</button>
 
         </div>
 
-    </header>
+        <input
+            id="search"
+            type="text"
+            placeholder="🔍 Ürünleri ara..."
+        >
+
+    </div>
 
     <main id="products">
 
@@ -62,6 +63,8 @@
         <img id="lightbox-img" src="" alt="">
 
         <button id="next">&#10095;</button>
+        
+        <div class="lightbox-counter"></div>
 
     </div>
 

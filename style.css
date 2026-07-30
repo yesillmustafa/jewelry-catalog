@@ -1,3 +1,10 @@
+#mobile-filter-btn,
+#overlay{
+
+    display:none;
+
+}
+
 /* ===========================
    RESET
 =========================== */
@@ -28,111 +35,149 @@ body {
 
 header {
 
-    position: sticky;
-
     top: 0;
 
     z-index: 100;
 
     background: white;
 
-    padding: 25px;
+    padding:0;
 
     box-shadow: 0 3px 15px rgba(0,0,0,.08);
 
 }
 
-header h1 {
+/* ===========================
+   BANNER
+=========================== */
 
-    text-align: center;
+.banner{
 
-    color: #c89b3c;
+    position:sticky;
 
-    font-size: 34px;
+    top:0;
 
-    margin-bottom: 20px;
+    z-index:999;
 
-    font-weight: 600;
+    background:white;
 
+    overflow:hidden;
+
+}
+
+.banner img{
+
+    width:100%;
+
+    height:380px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    display:block;
+
+}
+
+
+/* ===========================
+   TOOLBAR
+=========================== */
+.toolbar{
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 95%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 15px 20px;
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+
+    border-radius: 0 0 16px 16px;
 }
 
 /* ===========================
    SEARCH
 =========================== */
 
-#search {
+#search{
 
-    width: 100%;
+    width:280px;
 
-    max-width: 600px;
+    padding:10px 18px;
 
-    margin: auto;
+    border:none;
 
-    display: block;
+    border-radius:30px;
 
-    padding: 14px 18px;
+    background:#f5f5f5;
 
-    border: none;
+    font-size:15px;
 
-    outline: none;
-
-    border-radius: 12px;
-
-    background: #f1f1f1;
-
-    font-size: 16px;
+    margin-left:40px;
 
 }
+
 
 /* ===========================
    CATEGORIES
 =========================== */
+#categories{
 
-#categories {
+    display:flex;
 
-    margin-top: 20px;
+    align-items:center;
 
-    display: flex;
+    gap:10px;
 
-    justify-content: center;
-
-    gap: 12px;
-
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 
 }
 
-#categories button {
+#categories button{
 
-    border: 1px solid #ddd;
+    padding:8px 18px;
 
-    background: white;
+    border-radius:25px;
 
-    padding: 10px 18px;
+    border:1px solid #ddd;
 
-    border-radius: 30px;
+    background:white;
 
-    cursor: pointer;
+    cursor:pointer;
 
-    transition: .3s;
+    transition:.25s;
 
-    font-size: 14px;
-
-}
-
-#categories button:hover {
-
-    background: #c89b3c;
-
-    color: white;
+    font-size:14px;
 
 }
 
-#categories .active {
+#categories button:hover{
 
-    background: #c89b3c;
+    background:#c89b3c;
 
-    color: white;
+    color:white;
+
+}
+
+#categories .active{
+
+    background:#c89b3c;
+
+    color:white;
 
 }
 
@@ -177,6 +222,7 @@ header h1 {
 .card:hover {
 
     transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0,0,0,.18);
 
 }
 
@@ -218,27 +264,30 @@ header h1 {
 
     transform: translateY(-50%);
 
-    width: 40px;
-
-    height: 40px;
+    width: 34px;
+    height: 34px;
 
     border: none;
-
     border-radius: 50%;
 
-    background: rgba(255,255,255,.85);
+    background: rgba(255,255,255,.9);
 
     cursor: pointer;
 
     font-size: 20px;
 
-    transition: .2s;
+    transition: .25s;
+
+    opacity: 0;
+    visibility: hidden;
 
 }
 
-.arrow:hover {
+.card:hover .arrow{
 
-    background: white;
+    opacity:1;
+
+    visibility:visible;
 
 }
 
@@ -300,31 +349,80 @@ header h1 {
    LIGHTBOX
 =========================== */
 
-#lightbox {
+#lightbox{
 
-    position: fixed;
+    position:fixed;
 
-    inset: 0;
+    inset:0;
 
-    display: none;
+    display:flex;
 
-    justify-content: center;
+    justify-content:center;
 
-    align-items: center;
+    align-items:center;
 
-    background: rgba(0,0,0,.92);
+    background:rgba(0,0,0,.92);
 
-    z-index: 9999;
+    z-index:9999;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    pointer-events:none;
+
+    transition:opacity .25s ease;
 
 }
 
-#lightbox img {
+#lightbox img{
 
-    max-width: 90%;
+    max-width:90%;
+    max-height:90%;
+    object-fit:contain;
 
-    max-height: 90%;
+}
 
-    object-fit: contain;
+#lightbox.active{
+
+    opacity:1;
+
+    visibility:visible;
+
+    pointer-events:auto;
+
+}
+
+#lightbox.active img{
+
+    transform:scale(1);
+
+}
+
+.lightbox-counter{
+
+    position:absolute;
+
+    bottom:30px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    padding:8px 16px;
+
+    background:rgba(0,0,0,.45);
+
+    color:#fff;
+
+    border-radius:999px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    backdrop-filter:blur(8px);
+
+    user-select:none;
 
 }
 
@@ -412,27 +510,117 @@ header h1 {
 
     header{
 
-        padding:18px;
+        padding:0px;
 
     }
 
-    header h1{
+    .banner{
 
-        font-size:28px;
+        overflow:hidden;
 
     }
 
-    #products{
+    .banner img{
+
+        content:url("assets/mobile-banner.png");
+        width:100%;
+        object-fit:cover;
+
+        object-position:center;
+
+    }
+
+    .toolbar{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+        gap:12px;
+
+        padding:12px 15px;
+
+    }
+    #search{
+
+        width:100%;
+
+        max-width:none;
+
+        margin:0;
+
+        order:1;
+
+    }
+    #categories{
+
+        order:2;
+
+        width:100%;
+
+        display:grid;
+
+        grid-template-columns:repeat(3,1fr);
+
+        gap:8px;
+
+    }
+
+    #categories::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+    #categories button{
+
+        width:100%;
+
+        padding:8px 0;
+
+        font-size:12px;
+
+        border-radius:18px;
+
+        white-space:nowrap;
+
+    }
+    
+     #products{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:14px;
 
         width:95%;
 
-        gap:20px;
+    }
+
+    .info{
+
+        padding:10px;
+
+    }
+
+    .info h2{
+
+        font-size:14px;
+
+        min-height:auto;
 
     }
 
     .price{
 
-        font-size:20px;
+        font-size:18px;
+
+    }
+
+    .sku{
+
+        font-size:11px;
 
     }
 
@@ -454,5 +642,10 @@ header h1 {
         top:20px;
 
     }
+    
+    .arrow{
+        display: none;
+    }
 
 }
+
