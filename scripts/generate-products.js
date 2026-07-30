@@ -13,7 +13,11 @@ function getTitle(page, property) {
 }
 
 function getRichText(page, property) {
-    return page.properties[property]?.rich_text?.[0]?.plain_text ?? "";
+    return (
+        page.properties[property]?.rich_text
+            ?.map(item => item.plain_text)
+            .join("") ?? ""
+    ).trim();
 }
 
 function getSelect(page, property) {
