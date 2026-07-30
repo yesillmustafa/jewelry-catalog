@@ -8,13 +8,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
 
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - run: npm install
 
@@ -22,8 +25,16 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
-      - name: Upload products.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: products-json
-          path: products.json
+
+      - name: Commit updated products.json
+        run: |
+          if git diff --quiet products.json; then
+            echo "No changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add products.json
+            git commit -m "Update products.json from Notion"
+            git push
+          fi
