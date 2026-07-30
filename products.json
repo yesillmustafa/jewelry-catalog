@@ -1,89 +1,5 @@
 [
   {
-    "name": "14K Gold Sedef Detay İncili Çiçek Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 400,
-    "images": []
-  },
-  {
-    "name": "14K Gold Siyah Sedefli Zirkonlu Halka Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 450,
-    "images": []
-  },
-  {
-    "name": "14K Gold Zirkonlu Sallantılı Oval Halka Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 500,
-    "images": []
-  },
-  {
-    "name": "14K Gold Zirkon Ve Kristal Taş Kanatlı Sallantılı Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 500,
-    "images": []
-  },
-  {
-    "name": "14K Gold Zirkonlu Ve İncili Kare Tasarım Sallantılı Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 500,
-    "images": []
-  },
-  {
-    "name": "14K Gold Üçlü Bitişik Damla Taşlı Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 450,
-    "images": []
-  },
-  {
-    "name": "14K Gold Zirkon Detay Büyük İnci Sallantılı Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 450,
-    "images": []
-  },
-  {
-    "name": "14K Gold Zirkon Ve Damla Taş Detay Kanat Sallantılı Glory Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 550,
-    "images": []
-  },
-  {
-    "name": "14K Gold Silver Desenli Çiçek Tasarım Stefany Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 400,
-    "images": []
-  },
-  {
-    "name": "14K Gold Kare Tasarım Kaplan Gözü Taşlı Stefany Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 370,
-    "images": []
-  },
-  {
-    "name": "14K Gold Çift Sıralı Asimetrik Beşgen Ortası Kare Taş Tasarım Stefany Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 400,
-    "images": []
-  },
-  {
-    "name": "14K Gold Lazer Kesim Telli Çiçek Tasarım Stefany Küpe",
-    "sku": "M",
-    "category": "Küpe",
-    "price": 400,
-    "images": []
-  },
-  {
     "name": "Gold Minimal Suyolu Ortada Üç Dikdörtgen Kristal Taşlı Tasarım Çelik Bileklik",
     "sku": "MBL0002",
     "category": "Bileklik",
@@ -477,6 +393,59 @@
     ]
   },
   {
+    "name": "14K Gold Lazer Kesim Telli Çiçek Tasarım Stefany Küpe",
+    "sku": "MKE0012",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0012/image_1296 (1).webp",
+      "images/Küpe/MKE0012/image_1296 (3).webp",
+      "images/Küpe/MKE0012/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Çift Sıralı Asimetrik Beşgen Ortası Kare Taş Tasarım Stefany Küpe",
+    "sku": "MKE0014",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0014/image_1296 (1).webp",
+      "images/Küpe/MKE0014/image_1296 (2).webp",
+      "images/Küpe/MKE0014/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Kare Tasarım Kaplan Gözü Taşlı Stefany Küpe",
+    "sku": "MKE0016",
+    "category": "Küpe",
+    "price": 370,
+    "images": [
+      "images/Küpe/MKE0016/image_1296 (1).webp",
+      "images/Küpe/MKE0016/image_1296 (3).webp",
+      "images/Küpe/MKE0016/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Silver Desenli Çiçek Tasarım Stefany Küpe",
+    "sku": "MKE0018",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0018/image_1296 (2).webp",
+      "images/Küpe/MKE0018/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Ve Damla Taş Detay Kanat Sallantılı Glory Küpe",
+    "sku": "MKE0020",
+    "category": "Küpe",
+    "price": 550,
+    "images": [
+      "images/Küpe/MKE0020/image_1296 (1).webp",
+      "images/Küpe/MKE0020/image_1296.webp"
+    ]
+  },
+  {
     "name": "14K Gold Sıralı Tektaş N Sallantılı Damla Taşlı Glory Küpe",
     "sku": "MKE0022",
     "category": "Küpe",
@@ -484,6 +453,75 @@
     "images": [
       "images/Küpe/MKE0022/image_1296 (2).webp",
       "images/Küpe/MKE0022/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Detay Büyük İnci Sallantılı Glory Küpe",
+    "sku": "MKE0024",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0024/image_1296 (1).webp",
+      "images/Küpe/MKE0024/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Üçlü Bitişik Damla Taşlı Glory Küpe",
+    "sku": "MKE0026",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0026/image_1296 (2).webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkonlu Ve İncili Kare Tasarım Sallantılı Glory Küpe",
+    "sku": "MKE0028",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0028/image_1296 (1).webp",
+      "images/Küpe/MKE0028/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Ve Kristal Taş Kanatlı Sallantılı Glory Küpe",
+    "sku": "MKE0030",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0030/image_1296 (2).webp",
+      "images/Küpe/MKE0030/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkonlu Sallantılı Oval Halka Glory Küpe",
+    "sku": "MKE0040",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0040/image_1296 (1).webp",
+      "images/Küpe/MKE0040/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Siyah Sedefli Zirkonlu Halka Glory Küpe",
+    "sku": "MKE0042",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0042/image_1296 (2).webp",
+      "images/Küpe/MKE0042/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Sedef Detay İncili Çiçek Glory Küpe",
+    "sku": "MKE0044",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0044/ake10536-1.webp",
+      "images/Küpe/MKE0044/image_1296 (1).webp"
     ]
   },
   {
