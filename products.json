@@ -1,716 +1,1170 @@
 [
   {
-    "name": "14k Gold Zirkon Taşlı Yuvarlak Tasarım Luxury Kolye",
-    "sku": "MKL0056",
-    "category": "Kolye",
-    "price": 600
-  },
-  {
-    "name": "Gold Ataç Büyük Boy Halka Çelik Küpe",
-    "sku": "MKE0096",
-    "category": "Küpe",
-    "price": 140
-  },
-  {
-    "name": "14k Gold Ortası Zirkonlu Detay Altıgen Geçişli Tasarım Luxury Bileklik",
-    "sku": "MBL0050",
-    "category": "Bileklik",
-    "price": 1200
-  },
-  {
-    "name": "14k Gold Zirkon Ve Sedef Taşlı Ay Yıldız Ve Bulut Sallantılı Tasarım Luxury Halhal",
-    "sku": "MHL0016",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Küp Detay Zirkonlu Mavi Sedef Sallantılı Çift Zincir Tasarım Luxury Halhal",
-    "sku": "MHL0014",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Sıralı Yıldız Tasarım Luxury Halhal",
-    "sku": "MHL0012",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkon Detay Damla Taş Ve Kalp Sallantılı Çift Zincir Tasarım Luxury Halhal",
-    "sku": "MHL0010",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Kristal Taşlı Kelebek Ve İnci Sallantılı Çift Zincir Tasarım Luxury Halhal",
-    "sku": "MHL0008",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Topçuk Detay Zirkon Taşlı Halka Sallantılı Tasarım Luxury Halhal",
-    "sku": "MHL0006",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkon Detay Pul Sallantılı Çift Zincir Tasarım Luxury Halhal",
-    "sku": "MHL0004",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Çiçek Tasarım Kristal Taş Ve Kelebek Sallantılı Luxury Halhal",
-    "sku": "MHL0002",
-    "category": "Halhal",
-    "price": 400
-  },
-  {
-    "name": "Gold Minimal Suyolu Tasarım Kalp Tektaş Detay Çelik Bileklik",
-    "sku": "MBL0048",
-    "category": "Bileklik",
-    "price": 430
-  },
-  {
-    "name": "Gold 14K Zirkon Detay Yıldızlar Sıralı Luxury Bileklik",
-    "sku": "MBL0046",
-    "category": "Bileklik",
-    "price": 1200
-  },
-  {
-    "name": "14K Gold Ortası Büyük Kare Tektaşlı Suyolu Luxury Bileklik",
-    "sku": "MBL0044",
-    "category": "Bileklik",
-    "price": 900
-  },
-  {
-    "name": "14k Gold Bitişik Piramit Tasarım Luxury Bileklik",
-    "sku": "MBL0042",
-    "category": "Bileklik",
-    "price": 800
-  },
-  {
-    "name": "14k Gold Zirkon Detay Düğümlü Kalın Ataç Zincir Tasarım Luxury Bileklik",
-    "sku": "MBL0040",
-    "category": "Bileklik",
-    "price": 900
-  },
-  {
-    "name": "14k Gold Zirkon zaragoza tasarım Luxury Bileklik",
-    "sku": "MBL0038",
-    "category": "Bileklik",
-    "price": 1000
-  },
-  {
-    "name": "14k Gold Zirkon Detay Kare Çift Birleşimli Luxury Bileklik",
-    "sku": "MBL0036",
-    "category": "Bileklik",
-    "price": 850
-  },
-  {
-    "name": "14k Gold Ortası Kristal Sıra Taşlı Delikli Damla Tasarım Luxury Bileklik",
-    "sku": "MBL0034",
-    "category": "Bileklik",
-    "price": 900
-  },
-  {
-    "name": "14k Gold Ortası Kristal Taşlı Yatay V Tasarım Luxury Bileklik",
-    "sku": "MBL0032",
-    "category": "Bileklik",
-    "price": 850
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Künye Model Tasarım Luxury Bileklik",
-    "sku": "MBL0030",
-    "category": "Bileklik",
-    "price": 950
-  },
-  {
-    "name": "14k Gold Sıralı Oval Kabartma Zirkon Detay Tasarım Luxury Bileklik",
-    "sku": "MBL0028",
-    "category": "Bileklik",
-    "price": 1700
-  },
-  {
-    "name": "14k Gold Burgulu Küçük halka detay Ve Büyük halkalı zincir Luxury Bileklik",
-    "sku": "MBL0026",
-    "category": "Bileklik",
-    "price": 900
-  },
-  {
-    "name": "14k Gold Taş Detay Bitişik Sıralı Kalp Tasarım Luxury Bileklik",
-    "sku": "MBL0024",
-    "category": "Bileklik",
-    "price": 650
-  },
-  {
-    "name": "14k Gold Ortası Zirkon Taşlı Künye Tasarım Luxury Bileklik",
-    "sku": "MBL0022",
-    "category": "Bileklik",
-    "price": 750
-  },
-  {
-    "name": "14k Gold Ortası Zirkonlu Kalın Zincir Tasarım Luxury Bileklik",
-    "sku": "MBL0020",
-    "category": "Bileklik",
-    "price": 1300
-  },
-  {
-    "name": "14k Gold Zirkon Detay Kare İçinde Topçuk Tasarım Luxury Bileklik",
-    "sku": "MBL0018",
-    "category": "Bileklik",
-    "price": 850
-  },
-  {
-    "name": "14k Gold Kristal Taş Detay İç İçe Geçmeli Kalp Tasarım Luxury Bileklik",
-    "sku": "MBL0016",
-    "category": "Bileklik",
-    "price": 750
-  },
-  {
-    "name": "14k Gold Ortası Kare Tektaş Topçuk Detay Luxury Bileklik",
-    "sku": "MBL0014",
-    "category": "Bileklik",
-    "price": 800
-  },
-  {
-    "name": "14k Gold Zirkon Detay Kare Ataç Tasarımluxury Bileklik",
-    "sku": "MBL0012",
-    "category": "Bileklik",
-    "price": 1500
-  },
-  {
-    "name": "14k Gold Zirkon Detay Renkli Taşlı Künye Tasarım Luxury Bileklik",
-    "sku": "MBL0010",
-    "category": "Bileklik",
-    "price": 1000
-  },
-  {
-    "name": "14k Gold Klasik Kordon Tasarım Luxury Bileklik",
-    "sku": "MBL0008",
-    "category": "Bileklik",
-    "price": 1000
-  },
-  {
-    "name": "14k Gold Lazer Kesim Sıralı X Tasarım Luxury Bileklik",
-    "sku": "MBL0006",
-    "category": "Bileklik",
-    "price": 800
-  },
-  {
-    "name": "14k Gold Kalın Figaro Zincir Luxury Bileklik",
-    "sku": "MBL0004",
-    "category": "Bileklik",
-    "price": 450
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Ve Taşsız Sıralı Yıldız Tasarım Luxury Şahmeran ",
-    "sku": "MSH0028",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkon Detay Çift Zincirli V Tasarım Luxury Şahmeran",
-    "sku": "MSH0026",
-    "category": "Şahmeran",
-    "price": 450
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Büyük Ve Küçük Kutup Yıldızı Luxury Şahmeran",
-    "sku": "MSH0024",
-    "category": "Şahmeran",
-    "price": 450
-  },
-  {
-    "name": "Gold Yuvarlak Ve Dikdörtgen Taş Detay Zincir Çelik Şahmeran",
-    "sku": "MSH0022",
-    "category": "Şahmeran",
-    "price": 330
-  },
-  {
-    "name": "Gold Minimal Suyolu Ortada Üç Dikdörtgen Kristal Taşlı Tasarım Çelik Bileklik",
-    "sku": "MBL0002",
-    "category": "Bileklik",
-    "price": 430
-  },
-  {
-    "name": "Gold Sıralı Üç Kalpli Tasarım Çelik Şahmeran",
-    "sku": "MSH0020",
-    "category": "Şahmeran",
-    "price": 330
-  },
-  {
-    "name": "14k Gold Kelepçe Detay Üçgen Nazar Gözü Tasarım Luxury Şahmeran",
-    "sku": "MSH0018",
-    "category": "Şahmeran",
-    "price": 430
-  },
-  {
-    "name": "14k Gold Monaco Çakıl Taşı Tasarım Luxury Şahmeran",
-    "sku": "MSH0016",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Sıralı Geometrik Renkli Taş Tasarım Luxury Şahmeran",
-    "sku": "MSH0014",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Kelepçe Detay Kırmızı Taşlı Zirkonlu Kare Tasarım Luxury Şahmeran",
-    "sku": "MSH0012",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkonlu Üçlü Dikdörtgen Tasarım Luxury Şahmeran",
-    "sku": "MSH0010",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Kelepçe Detay Taşlı Kar Tanesi Tasarım Luxury Şahmeran",
-    "sku": "MSH0008",
-    "category": "Şahmeran",
-    "price": 430
-  },
-  {
-    "name": "14k Gold Mini Suyolu Tasarım Yıldız Sallantılı Luxury Şahmeran",
-    "sku": "MSH0006",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Zirkonlu Üç Çiçek Tasarım Luxury Şahmeran",
-    "sku": "MSH0004",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Mavi Sedef Detay Zirkon Taşlı Üçlü Kutup Yıldızı Tasarım Luxury Şahmeran",
-    "sku": "MSH0002",
-    "category": "Şahmeran",
-    "price": 400
-  },
-  {
-    "name": "Gold Kalp İçinde Dönen Zirkonlu Kalp 45 cm Çelik Kolye",
-    "sku": "MKL0054",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "Gold Zirkonlu Yildiz İçinde Tektaş Yildiz Tasarim 45 cm Çelik Kolye",
-    "sku": "MKL0052",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "Gold Dikdörtgen Yuvarlak Ve Arpa Tektaş Tasarim 45 cm Çelik Kolye",
-    "sku": "MKL0050",
-    "category": "Kolye",
-    "price": 300
-  },
-  {
-    "name": "14k Gold Sargılı Minimal Zincir 45 Cm Luxury Kolye",
-    "sku": "MKL0048",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "14k Gold Mini Parlak Topçuklu 45 Cm Luxury Kolye",
-    "sku": "MKL0046",
-    "category": "Kolye",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Seyrek Topçuklu Minimal Zincir 45 Cm Luxury Kolye",
-    "sku": "MKL0044",
-    "category": "Kolye",
-    "price": 330
-  },
-  {
-    "name": "14k Gold Parıltılı Çok Halkalı Zincir 45 Cm Luxury Kolye ",
-    "sku": "MKL0042",
-    "category": "Kolye",
-    "price": 680
-  },
-  {
-    "name": "14k Gold Minimal Topçuk Ve Seyrek Büyük Topçuklu 45 Cm Luxury Kolye",
-    "sku": "MKL0040",
-    "category": "Kolye",
-    "price": 330
-  },
-  {
-    "name": "Gold Kristal Taşlı Ortası Çarkıfelek Kare Tasarım Çelik Kolye",
-    "sku": "MKL0038",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Damla Taşlı Kraliçe Tacı Tasarım Çelik",
-    "sku": "MKL0036",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Kristal Taşlı Üçlü Çiçek Tasarım Çelik Kolye",
-    "sku": "MKL0034",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Zirkon Ve Kristal Taşlı Büyük Çiçek Tasarım Çelik Kolye",
-    "sku": "MKL0032",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Kanatları Zirkon Ve Kristal Taşlı Peri Tasarım Çelik Kolye",
-    "sku": "MKL0030",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Kristal Ve Zirkon Taşlı vanguard tasarım Çelik Kolye",
-    "sku": "MKL0028",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Zirkon Ve Sedef Taşlı boyutlu kelebek tasarım Çelik Kolye",
-    "sku": "MKL0026",
-    "category": "Kolye",
-    "price": 280
-  },
-  {
-    "name": "Gold Köşesi Zirkonlu Dövme Kare Tasarım Çelik Kolye",
-    "sku": "MKL0024",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "Gold Zirkon Taşlı Yunus Tasarım Çelik Kolye",
-    "sku": "MKL0022",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "Gold Kafası Tektaş Kanatları Zirkonlu Melek Tasarım Çelik Kolye",
-    "sku": "MKL0020",
-    "category": "Kolye",
-    "price": 250
-  },
-  {
-    "name": "14k Gold Zirkon Taşlı Kelebek Tasarım Luxury Kolye",
-    "sku": "MKL0018",
-    "category": "Kolye",
-    "price": 500
-  },
-  {
-    "name": "14k Gold Zirkon Ve Tektaş Detay Çapraz Kare Tasarım Luxury Kolye",
-    "sku": "MKL0016",
-    "category": "Kolye",
-    "price": 600
-  },
-  {
-    "name": "14k Gold Sonsuzluk Detay Damla Taş Tasarım Luxury Kolye",
-    "sku": "MKL0014",
-    "category": "Kolye",
-    "price": 600
-  },
-  {
-    "name": "14k Gold Daire Suyolu Tasarım Luxury Kolye",
-    "sku": "MKL0012",
-    "category": "Kolye",
-    "price": 600
-  },
-  {
-    "name": "14k Gold Zirkon Ve Tektaşlı Sıralı Daireler Tasarım Luxury Kolye",
-    "sku": "MKL0010",
-    "category": "Kolye",
-    "price": 500
-  },
-  {
-    "name": "14k Gold Topçuk Zincir Ucu Kare Tektaş Tasarım Luxury Kolye",
-    "sku": "MKL0008",
-    "category": "Kolye",
-    "price": 550
-  },
-  {
-    "name": "14k Gold Halka Uçlu İçi Taşlı Zincir Tasarım Luxury Kolye",
-    "sku": "MKL0006",
-    "category": "Kolye",
-    "price": 750
-  },
-  {
-    "name": "14k Gold İnci Ve Topçuk Detay Zincir Tasarım Luxury Kolye",
-    "sku": "MKL0004",
-    "category": "Kolye",
-    "price": 400
-  },
-  {
-    "name": "14k Gold Ezme Ortası Kapalı Tasarım Zincir Luxury Kolye",
-    "sku": "MKL0002",
-    "category": "Kolye",
-    "price": 400
-  },
-  {
-    "name": "Gold Ataç Küçük Boy Halka Çelik Küpe",
-    "sku": "MKE0092",
-    "category": "Küpe",
-    "price": 120
-  },
-  {
-    "name": "Gold Ataç Orta Boy Halka Çelik Küpe",
-    "sku": "MKE0094",
-    "category": "Küpe",
-    "price": 130
-  },
-  {
-    "name": "Gold Yıldız Küçük Boy Halka Çelik Küpe",
-    "sku": "MKE0090",
-    "category": "Küpe",
-    "price": 120
-  },
-  {
-    "name": "Gold Bombe Küçük Boy Halka Çelik Küpe",
-    "sku": "MKE0082",
-    "category": "Küpe",
-    "price": 120
-  },
-  {
-    "name": "Gold Kalın Boru Büyük Boy Halka Çelik Küpe",
-    "sku": "MKE0088",
-    "category": "Küpe",
-    "price": 150
-  },
-  {
-    "name": "Gold Bombe Büyük Boy Halka Çelik Küpe",
-    "sku": "MKE0086",
-    "category": "Küpe",
-    "price": 140
-  },
-  {
-    "name": "Gold Bombe Orta Boy Halka Çelik Küpe",
-    "sku": "MKE0084",
-    "category": "Küpe",
-    "price": 130
-  },
-  {
-    "name": "Gold Kare Tektaş Çevresi Çift Sıra Zirkon Tasarım Glory Küpe",
-    "sku": "MKE0080",
-    "category": "Küpe",
-    "price": 500
-  },
-  {
-    "name": "Gold Zirkon Detay İç İçe Halkalı Glory Küpe",
-    "sku": "MKE0078",
-    "category": "Küpe",
-    "price": 430
-  },
-  {
-    "name": "Gold Zirkonlu Modern Kare Tasarım Glory Küpe",
-    "sku": "MKE0076",
-    "category": "Küpe",
-    "price": 380
-  },
-  {
-    "name": "Gold Kristal Taş Detay Baget Taşlı Tasarım Glory Küpe",
-    "sku": "MKE0074",
-    "category": "Küpe",
-    "price": 500
-  },
-  {
-    "name": "Gold Altı Düğümlü Dikey Suyolu Glory Küpe",
-    "sku": "MKE0072",
-    "category": "Küpe",
-    "price": 500
-  },
-  {
-    "name": "Gold Zirkon Detay Kaktüs Tasarım Glory Küpe",
-    "sku": "MKE0070",
-    "category": "Küpe",
-    "price": 300
-  },
-  {
-    "name": "Gold Damla Taş Detay Zirkonlu Çiçek Tasarım Glory Küpe",
-    "sku": "MKE0068",
-    "category": "Küpe",
-    "price": 350
-  },
-  {
-    "name": "Gold Damla Taş Kelebek Tasarım Glory Küpe",
-    "sku": "MKE0066",
-    "category": "Küpe",
-    "price": 450
-  },
-  {
-    "name": "Gold Asimetrik Dikey Taş Tasarım Glory Küpe",
-    "sku": "MKE0064",
-    "category": "Küpe",
-    "price": 480
-  },
-  {
-    "name": "Gold Damla Taş Kanatlı Yusufçuk Tasarım Glory Küpe",
-    "sku": "MKE0062",
-    "category": "Küpe",
-    "price": 300
-  },
-  {
-    "name": "14K Gold Büyük Baget Taşlı Yarım Tur Halka Glory Küpe",
-    "sku": "MKE0060",
-    "category": "Küpe",
-    "price": 400
-  },
-  {
-    "name": "14K Gold Kristal Taşlı Sallantılı Çiçek Tasarım Halka Glory Küpe",
-    "sku": "MKE0058",
-    "category": "Küpe",
-    "price": 400
-  },
-  {
-    "name": "14K Gold Zincir Sallantılı Uçları Kalpli Glory Küpe",
-    "sku": "MKE0056",
-    "category": "Küpe",
-    "price": 450
-  },
-  {
-    "name": "14K Gold Oval İnci Sallantılı Kelebek Ve Çiçek Topçuk Altılı Çoklu Küpeler",
-    "sku": "MKE0054",
-    "category": "Küpe",
-    "price": 330
-  },
-  {
-    "name": "Silver Zirkon Bağlantılı Kare Tektaşlı Sallantılı Glory Küpe",
-    "sku": "MKE0052",
-    "category": "Küpe",
-    "price": 600
-  },
-  {
-    "name": "14K Gold Zirkon Detay Dalgalı Oval Daire Sallantılı Glory Küpe",
-    "sku": "MKE0050",
-    "category": "Küpe",
-    "price": 500
-  },
-  {
-    "name": "14K Gold Zirkon Taşlı Sallantılı Kalpler Glory Küpe",
-    "sku": "MKE0048",
-    "category": "Küpe",
-    "price": 500
-  },
-  {
-    "name": "14K Gold Zirkon Detay Damla Tasarım Tektaş Sallantılı Glory Küpe",
-    "sku": "MKE0046",
-    "category": "Küpe",
-    "price": 450
-  },
-  {
     "name": "14K Gold Sedef Detay İncili Çiçek Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 400
+    "price": 400,
+    "images": []
   },
   {
     "name": "14K Gold Siyah Sedefli Zirkonlu Halka Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 450
+    "price": 450,
+    "images": []
   },
   {
     "name": "14K Gold Zirkonlu Sallantılı Oval Halka Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 500
+    "price": 500,
+    "images": []
   },
   {
     "name": "14K Gold Zirkon Ve Kristal Taş Kanatlı Sallantılı Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 500
+    "price": 500,
+    "images": []
   },
   {
     "name": "14K Gold Zirkonlu Ve İncili Kare Tasarım Sallantılı Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 500
+    "price": 500,
+    "images": []
   },
   {
     "name": "14K Gold Üçlü Bitişik Damla Taşlı Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 450
+    "price": 450,
+    "images": []
   },
   {
     "name": "14K Gold Zirkon Detay Büyük İnci Sallantılı Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 450
-  },
-  {
-    "name": "14K Gold Sıralı Tektaş N Sallantılı Damla Taşlı Glory Küpe",
-    "sku": "MKE0022",
-    "category": "Küpe",
-    "price": 550
+    "price": 450,
+    "images": []
   },
   {
     "name": "14K Gold Zirkon Ve Damla Taş Detay Kanat Sallantılı Glory Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 550
+    "price": 550,
+    "images": []
   },
   {
     "name": "14K Gold Silver Desenli Çiçek Tasarım Stefany Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 400
+    "price": 400,
+    "images": []
   },
   {
     "name": "14K Gold Kare Tasarım Kaplan Gözü Taşlı Stefany Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 370
+    "price": 370,
+    "images": []
   },
   {
     "name": "14K Gold Çift Sıralı Asimetrik Beşgen Ortası Kare Taş Tasarım Stefany Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 400
+    "price": 400,
+    "images": []
   },
   {
     "name": "14K Gold Lazer Kesim Telli Çiçek Tasarım Stefany Küpe",
     "sku": "M",
     "category": "Küpe",
-    "price": 400
+    "price": 400,
+    "images": []
   },
   {
-    "name": "14K Gold Yarım Ay Tasarım Kaplan Gözü Taşlı Stefany Küpe",
-    "sku": "MKE0010",
-    "category": "Küpe",
-    "price": 400
+    "name": "Gold Minimal Suyolu Ortada Üç Dikdörtgen Kristal Taşlı Tasarım Çelik Bileklik",
+    "sku": "MBL0002",
+    "category": "Bileklik",
+    "price": 430,
+    "images": [
+      "images/Bileklik/MBL0002/image_1296 (1).webp",
+      "images/Bileklik/MBL0002/image_1296 (2).webp",
+      "images/Bileklik/MBL0002/image_1296.webp"
+    ]
   },
   {
-    "name": "14K Gold Sedefli Kabartma Çoklu Çiçek Tasarım Stefany Küpe",
-    "sku": "MKE0008",
-    "category": "Küpe",
-    "price": 400
+    "name": "14k Gold Kalın Figaro Zincir Luxury Bileklik",
+    "sku": "MBL0004",
+    "category": "Bileklik",
+    "price": 450,
+    "images": [
+      "images/Bileklik/MBL0004/image_1296 (3).webp",
+      "images/Bileklik/MBL0004/image_1296.webp"
+    ]
   },
   {
-    "name": "14K Gold Yuvarlak Kemik Sallantılı Stefany Küpe",
-    "sku": "MKE0006",
-    "category": "Küpe",
-    "price": 400
+    "name": "14k Gold Lazer Kesim Sıralı X Tasarım Luxury Bileklik",
+    "sku": "MBL0006",
+    "category": "Bileklik",
+    "price": 800,
+    "images": [
+      "images/Bileklik/MBL0006/image_1296 (1).webp",
+      "images/Bileklik/MBL0006/image_1296.webp"
+    ]
   },
   {
-    "name": "14K Gold Çerçeveli Sedefli Düzensiz Damla Tasarım Stefany Küpe",
-    "sku": "MKE0004",
-    "category": "Küpe",
-    "price": 400
+    "name": "14k Gold Klasik Kordon Tasarım Luxury Bileklik",
+    "sku": "MBL0008",
+    "category": "Bileklik",
+    "price": 1000,
+    "images": [
+      "images/Bileklik/MBL0008/image_1296 (2).webp",
+      "images/Bileklik/MBL0008/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Renkli Taşlı Künye Tasarım Luxury Bileklik",
+    "sku": "MBL0010",
+    "category": "Bileklik",
+    "price": 1000,
+    "images": [
+      "images/Bileklik/MBL0010/image_1296 (1).webp",
+      "images/Bileklik/MBL0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Kare Ataç Tasarımluxury Bileklik",
+    "sku": "MBL0012",
+    "category": "Bileklik",
+    "price": 1500,
+    "images": [
+      "images/Bileklik/MBL0012/image_1296 (2).webp",
+      "images/Bileklik/MBL0012/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Kare Tektaş Topçuk Detay Luxury Bileklik",
+    "sku": "MBL0014",
+    "category": "Bileklik",
+    "price": 800,
+    "images": [
+      "images/Bileklik/MBL0014/image_1296 (1).webp",
+      "images/Bileklik/MBL0014/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Kristal Taş Detay İç İçe Geçmeli Kalp Tasarım Luxury Bileklik",
+    "sku": "MBL0016",
+    "category": "Bileklik",
+    "price": 750,
+    "images": [
+      "images/Bileklik/MBL0016/image_1296 (1).webp",
+      "images/Bileklik/MBL0016/image_1296 (2).webp",
+      "images/Bileklik/MBL0016/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Kare İçinde Topçuk Tasarım Luxury Bileklik",
+    "sku": "MBL0018",
+    "category": "Bileklik",
+    "price": 850,
+    "images": [
+      "images/Bileklik/MBL0018/image_1296 (1).webp",
+      "images/Bileklik/MBL0018/image_1296 (3).webp",
+      "images/Bileklik/MBL0018/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Zirkonlu Kalın Zincir Tasarım Luxury Bileklik",
+    "sku": "MBL0020",
+    "category": "Bileklik",
+    "price": 1300,
+    "images": [
+      "images/Bileklik/MBL0020/abl8267-1.webp",
+      "images/Bileklik/MBL0020/abl8267-2.webp",
+      "images/Bileklik/MBL0020/abl8267.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Zirkon Taşlı Künye Tasarım Luxury Bileklik",
+    "sku": "MBL0022",
+    "category": "Bileklik",
+    "price": 750,
+    "images": [
+      "images/Bileklik/MBL0022/image_1296 (1).webp",
+      "images/Bileklik/MBL0022/image_1296 (2).webp",
+      "images/Bileklik/MBL0022/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Taş Detay Bitişik Sıralı Kalp Tasarım Luxury Bileklik",
+    "sku": "MBL0024",
+    "category": "Bileklik",
+    "price": 650,
+    "images": [
+      "images/Bileklik/MBL0024/image_1296 (1).webp",
+      "images/Bileklik/MBL0024/image_1296 (3).webp",
+      "images/Bileklik/MBL0024/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Burgulu Küçük halka detay Ve Büyük halkalı zincir Luxury Bileklik",
+    "sku": "MBL0026",
+    "category": "Bileklik",
+    "price": 900,
+    "images": [
+      "images/Bileklik/MBL0026/image_1296 (1).webp",
+      "images/Bileklik/MBL0026/image_1296 (2).webp",
+      "images/Bileklik/MBL0026/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Sıralı Oval Kabartma Zirkon Detay Tasarım Luxury Bileklik",
+    "sku": "MBL0028",
+    "category": "Bileklik",
+    "price": 1700,
+    "images": [
+      "images/Bileklik/MBL0028/image_1296 (1).webp",
+      "images/Bileklik/MBL0028/image_1296 (3).webp",
+      "images/Bileklik/MBL0028/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Künye Model Tasarım Luxury Bileklik",
+    "sku": "MBL0030",
+    "category": "Bileklik",
+    "price": 950,
+    "images": [
+      "images/Bileklik/MBL0030/image_1296 (1).webp",
+      "images/Bileklik/MBL0030/image_1296 (2).webp",
+      "images/Bileklik/MBL0030/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Kristal Taşlı Yatay V Tasarım Luxury Bileklik",
+    "sku": "MBL0032",
+    "category": "Bileklik",
+    "price": 850,
+    "images": [
+      "images/Bileklik/MBL0032/image_1296 (1).webp",
+      "images/Bileklik/MBL0032/image_1296 (3).webp",
+      "images/Bileklik/MBL0032/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Kristal Sıra Taşlı Delikli Damla Tasarım Luxury Bileklik",
+    "sku": "MBL0034",
+    "category": "Bileklik",
+    "price": 900,
+    "images": [
+      "images/Bileklik/MBL0034/image_1296 (1).webp",
+      "images/Bileklik/MBL0034/image_1296 (2).webp",
+      "images/Bileklik/MBL0034/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Kare Çift Birleşimli Luxury Bileklik",
+    "sku": "MBL0036",
+    "category": "Bileklik",
+    "price": 850,
+    "images": [
+      "images/Bileklik/MBL0036/image_1296 (1).webp",
+      "images/Bileklik/MBL0036/image_1296 (3).webp",
+      "images/Bileklik/MBL0036/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon zaragoza tasarım Luxury Bileklik",
+    "sku": "MBL0038",
+    "category": "Bileklik",
+    "price": 1000,
+    "images": [
+      "images/Bileklik/MBL0038/image_1296 (1).webp",
+      "images/Bileklik/MBL0038/image_1296 (2).webp",
+      "images/Bileklik/MBL0038/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Düğümlü Kalın Ataç Zincir Tasarım Luxury Bileklik",
+    "sku": "MBL0040",
+    "category": "Bileklik",
+    "price": 900,
+    "images": [
+      "images/Bileklik/MBL0040/image_1296 (1).webp",
+      "images/Bileklik/MBL0040/image_1296 (3).webp",
+      "images/Bileklik/MBL0040/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Bitişik Piramit Tasarım Luxury Bileklik",
+    "sku": "MBL0042",
+    "category": "Bileklik",
+    "price": 800,
+    "images": [
+      "images/Bileklik/MBL0042/image_1296 (1).webp",
+      "images/Bileklik/MBL0042/image_1296 (2).webp",
+      "images/Bileklik/MBL0042/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Ortası Büyük Kare Tektaşlı Suyolu Luxury Bileklik",
+    "sku": "MBL0044",
+    "category": "Bileklik",
+    "price": 900,
+    "images": [
+      "images/Bileklik/MBL0044/image_1296 (1).webp",
+      "images/Bileklik/MBL0044/image_1296 (3).webp",
+      "images/Bileklik/MBL0044/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold 14K Zirkon Detay Yıldızlar Sıralı Luxury Bileklik",
+    "sku": "MBL0046",
+    "category": "Bileklik",
+    "price": 1200,
+    "images": [
+      "images/Bileklik/MBL0046/image_1296 (1).webp",
+      "images/Bileklik/MBL0046/image_1296 (2).webp",
+      "images/Bileklik/MBL0046/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Minimal Suyolu Tasarım Kalp Tektaş Detay Çelik Bileklik",
+    "sku": "MBL0048",
+    "category": "Bileklik",
+    "price": 430,
+    "images": [
+      "images/Bileklik/MBL0048/abl7557-1.webp",
+      "images/Bileklik/MBL0048/abl7557.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ortası Zirkonlu Detay Altıgen Geçişli Tasarım Luxury Bileklik",
+    "sku": "MBL0050",
+    "category": "Bileklik",
+    "price": 1200,
+    "images": [
+      "images/Bileklik/MBL0050/abl8141-1.webp",
+      "images/Bileklik/MBL0050/abl8141-2.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Çiçek Tasarım Kristal Taş Ve Kelebek Sallantılı Luxury Halhal",
+    "sku": "MHL0002",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0002/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Pul Sallantılı Çift Zincir Tasarım Luxury Halhal",
+    "sku": "MHL0004",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0004/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Topçuk Detay Zirkon Taşlı Halka Sallantılı Tasarım Luxury Halhal",
+    "sku": "MHL0006",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0006/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Kristal Taşlı Kelebek Ve İnci Sallantılı Çift Zincir Tasarım Luxury Halhal",
+    "sku": "MHL0008",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0008/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Damla Taş Ve Kalp Sallantılı Çift Zincir Tasarım Luxury Halhal",
+    "sku": "MHL0010",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Sıralı Yıldız Tasarım Luxury Halhal",
+    "sku": "MHL0012",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0012/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Küp Detay Zirkonlu Mavi Sedef Sallantılı Çift Zincir Tasarım Luxury Halhal",
+    "sku": "MHL0014",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0014/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Ve Sedef Taşlı Ay Yıldız Ve Bulut Sallantılı Tasarım Luxury Halhal",
+    "sku": "MHL0016",
+    "category": "Halhal",
+    "price": 400,
+    "images": [
+      "images/Halhal/MHL0016/image_1296 (1).webp"
+    ]
   },
   {
     "name": "14K Gold Asimetrik Zincir Taş Sallantılı Stefany Küpe DENEME",
     "sku": "MKE0002",
     "category": "Küpe",
-    "price": 400
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0002/image_1296 - 2026-07-24T202023.660.webp",
+      "images/Küpe/MKE0002/image_1296 (1).webp",
+      "images/Küpe/MKE0002/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Çerçeveli Sedefli Düzensiz Damla Tasarım Stefany Küpe",
+    "sku": "MKE0004",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0004/image_1296 (2).webp",
+      "images/Küpe/MKE0004/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Yuvarlak Kemik Sallantılı Stefany Küpe",
+    "sku": "MKE0006",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0006/image_1296 (1).webp",
+      "images/Küpe/MKE0006/image_1296 (2).webp",
+      "images/Küpe/MKE0006/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Sedefli Kabartma Çoklu Çiçek Tasarım Stefany Küpe",
+    "sku": "MKE0008",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0008/image_1296 (1).webp",
+      "images/Küpe/MKE0008/image_1296 (3).webp",
+      "images/Küpe/MKE0008/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Yarım Ay Tasarım Kaplan Gözü Taşlı Stefany Küpe",
+    "sku": "MKE0010",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0010/image_1296 (1).webp",
+      "images/Küpe/MKE0010/image_1296 (2).webp",
+      "images/Küpe/MKE0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Sıralı Tektaş N Sallantılı Damla Taşlı Glory Küpe",
+    "sku": "MKE0022",
+    "category": "Küpe",
+    "price": 550,
+    "images": [
+      "images/Küpe/MKE0022/image_1296 (2).webp",
+      "images/Küpe/MKE0022/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Detay Damla Tasarım Tektaş Sallantılı Glory Küpe",
+    "sku": "MKE0046",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0046/image_1296 (1).webp",
+      "images/Küpe/MKE0046/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Taşlı Sallantılı Kalpler Glory Küpe",
+    "sku": "MKE0048",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0048/image_1296 (2).webp",
+      "images/Küpe/MKE0048/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Detay Dalgalı Oval Daire Sallantılı Glory Küpe",
+    "sku": "MKE0050",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0050/image_1296 (1).webp",
+      "images/Küpe/MKE0050/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Silver Zirkon Bağlantılı Kare Tektaşlı Sallantılı Glory Küpe",
+    "sku": "MKE0052",
+    "category": "Küpe",
+    "price": 600,
+    "images": [
+      "images/Küpe/MKE0052/image_1296 (2).webp",
+      "images/Küpe/MKE0052/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Oval İnci Sallantılı Kelebek Ve Çiçek Topçuk Altılı Çoklu Küpeler",
+    "sku": "MKE0054",
+    "category": "Küpe",
+    "price": 330,
+    "images": [
+      "images/Küpe/MKE0054/image_1296 (1).webp",
+      "images/Küpe/MKE0054/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zincir Sallantılı Uçları Kalpli Glory Küpe",
+    "sku": "MKE0056",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0056/image_1296 (2).webp",
+      "images/Küpe/MKE0056/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Kristal Taşlı Sallantılı Çiçek Tasarım Halka Glory Küpe",
+    "sku": "MKE0058",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0058/image_1296 (1).webp",
+      "images/Küpe/MKE0058/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Büyük Baget Taşlı Yarım Tur Halka Glory Küpe",
+    "sku": "MKE0060",
+    "category": "Küpe",
+    "price": 400,
+    "images": [
+      "images/Küpe/MKE0060/image_1296 (2).webp",
+      "images/Küpe/MKE0060/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Damla Taş Kanatlı Yusufçuk Tasarım Glory Küpe",
+    "sku": "MKE0062",
+    "category": "Küpe",
+    "price": 300,
+    "images": [
+      "images/Küpe/MKE0062/image_1296 (1).webp",
+      "images/Küpe/MKE0062/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Asimetrik Dikey Taş Tasarım Glory Küpe",
+    "sku": "MKE0064",
+    "category": "Küpe",
+    "price": 480,
+    "images": [
+      "images/Küpe/MKE0064/image_1296 (2).webp",
+      "images/Küpe/MKE0064/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Damla Taş Kelebek Tasarım Glory Küpe",
+    "sku": "MKE0066",
+    "category": "Küpe",
+    "price": 450,
+    "images": [
+      "images/Küpe/MKE0066/image_1296 (1).webp",
+      "images/Küpe/MKE0066/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Damla Taş Detay Zirkonlu Çiçek Tasarım Glory Küpe",
+    "sku": "MKE0068",
+    "category": "Küpe",
+    "price": 350,
+    "images": [
+      "images/Küpe/MKE0068/image_1296 (2).webp",
+      "images/Küpe/MKE0068/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkon Detay Kaktüs Tasarım Glory Küpe",
+    "sku": "MKE0070",
+    "category": "Küpe",
+    "price": 300,
+    "images": [
+      "images/Küpe/MKE0070/image_1296 (1).webp",
+      "images/Küpe/MKE0070/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Altı Düğümlü Dikey Suyolu Glory Küpe",
+    "sku": "MKE0072",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0072/image_1296 (2).webp",
+      "images/Küpe/MKE0072/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kristal Taş Detay Baget Taşlı Tasarım Glory Küpe",
+    "sku": "MKE0074",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0074/image_1296 (1).webp",
+      "images/Küpe/MKE0074/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkonlu Modern Kare Tasarım Glory Küpe",
+    "sku": "MKE0076",
+    "category": "Küpe",
+    "price": 380,
+    "images": [
+      "images/Küpe/MKE0076/image_1296 (2).webp",
+      "images/Küpe/MKE0076/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkon Detay İç İçe Halkalı Glory Küpe",
+    "sku": "MKE0078",
+    "category": "Küpe",
+    "price": 430,
+    "images": [
+      "images/Küpe/MKE0078/image_1296 (1).webp",
+      "images/Küpe/MKE0078/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kare Tektaş Çevresi Çift Sıra Zirkon Tasarım Glory Küpe",
+    "sku": "MKE0080",
+    "category": "Küpe",
+    "price": 500,
+    "images": [
+      "images/Küpe/MKE0080/image_1296 (2).webp",
+      "images/Küpe/MKE0080/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Bombe Küçük Boy Halka Çelik Küpe",
+    "sku": "MKE0082",
+    "category": "Küpe",
+    "price": 120,
+    "images": [
+      "images/Küpe/MKE0082/10286.webp",
+      "images/Küpe/MKE0082/image_1296 (3).webp",
+      "images/Küpe/MKE0082/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Bombe Orta Boy Halka Çelik Küpe",
+    "sku": "MKE0084",
+    "category": "Küpe",
+    "price": 130,
+    "images": [
+      "images/Küpe/MKE0084/10288.webp",
+      "images/Küpe/MKE0084/image_1296 (1).webp",
+      "images/Küpe/MKE0084/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Bombe Büyük Boy Halka Çelik Küpe",
+    "sku": "MKE0086",
+    "category": "Küpe",
+    "price": 140,
+    "images": [
+      "images/Küpe/MKE0086/10290.webp",
+      "images/Küpe/MKE0086/image_1296 (2).webp",
+      "images/Küpe/MKE0086/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kalın Boru Büyük Boy Halka Çelik Küpe",
+    "sku": "MKE0088",
+    "category": "Küpe",
+    "price": 150,
+    "images": [
+      "images/Küpe/MKE0088/image_1296 (1).webp",
+      "images/Küpe/MKE0088/image_1296 (2).webp",
+      "images/Küpe/MKE0088/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Yıldız Küçük Boy Halka Çelik Küpe",
+    "sku": "MKE0090",
+    "category": "Küpe",
+    "price": 120,
+    "images": [
+      "images/Küpe/MKE0090/image_1296 (1).webp",
+      "images/Küpe/MKE0090/image_1296 (2).webp",
+      "images/Küpe/MKE0090/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Ataç Küçük Boy Halka Çelik Küpe",
+    "sku": "MKE0092",
+    "category": "Küpe",
+    "price": 120,
+    "images": [
+      "images/Küpe/MKE0092/image_1296 (1).webp",
+      "images/Küpe/MKE0092/image_1296 (3).webp",
+      "images/Küpe/MKE0092/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Ataç Orta Boy Halka Çelik Küpe",
+    "sku": "MKE0094",
+    "category": "Küpe",
+    "price": 130,
+    "images": [
+      "images/Küpe/MKE0094/image_1296 (1).webp",
+      "images/Küpe/MKE0094/image_1296 (2).webp",
+      "images/Küpe/MKE0094/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Ataç Büyük Boy Halka Çelik Küpe",
+    "sku": "MKE0096",
+    "category": "Küpe",
+    "price": 140,
+    "images": [
+      "images/Küpe/MKE0096/image_1296 (1).webp",
+      "images/Küpe/MKE0096/image_1296 (3).webp",
+      "images/Küpe/MKE0096/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Ezme Ortası Kapalı Tasarım Zincir Luxury Kolye",
+    "sku": "MKL0002",
+    "category": "Kolye",
+    "price": 400,
+    "images": [
+      "images/Kolye/MKL0002/image_1296 (1).webp",
+      "images/Kolye/MKL0002/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold İnci Ve Topçuk Detay Zincir Tasarım Luxury Kolye",
+    "sku": "MKL0004",
+    "category": "Kolye",
+    "price": 400,
+    "images": [
+      "images/Kolye/MKL0004/image_1296 (2).webp",
+      "images/Kolye/MKL0004/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Halka Uçlu İçi Taşlı Zincir Tasarım Luxury Kolye",
+    "sku": "MKL0006",
+    "category": "Kolye",
+    "price": 750,
+    "images": [
+      "images/Kolye/MKL0006/image_1296 (1).webp",
+      "images/Kolye/MKL0006/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Topçuk Zincir Ucu Kare Tektaş Tasarım Luxury Kolye",
+    "sku": "MKL0008",
+    "category": "Kolye",
+    "price": 550,
+    "images": [
+      "images/Kolye/MKL0008/image_1296 (2).webp",
+      "images/Kolye/MKL0008/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Ve Tektaşlı Sıralı Daireler Tasarım Luxury Kolye",
+    "sku": "MKL0010",
+    "category": "Kolye",
+    "price": 500,
+    "images": [
+      "images/Kolye/MKL0010/image_1296 (1).webp",
+      "images/Kolye/MKL0010/image_1296 (2).webp",
+      "images/Kolye/MKL0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Daire Suyolu Tasarım Luxury Kolye",
+    "sku": "MKL0012",
+    "category": "Kolye",
+    "price": 600,
+    "images": [
+      "images/Kolye/MKL0012/image_1296 (3).webp",
+      "images/Kolye/MKL0012/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Sonsuzluk Detay Damla Taş Tasarım Luxury Kolye",
+    "sku": "MKL0014",
+    "category": "Kolye",
+    "price": 600,
+    "images": [
+      "images/Kolye/MKL0014/image_1296 (1).webp",
+      "images/Kolye/MKL0014/image_1296 (3).webp",
+      "images/Kolye/MKL0014/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Ve Tektaş Detay Çapraz Kare Tasarım Luxury Kolye",
+    "sku": "MKL0016",
+    "category": "Kolye",
+    "price": 600,
+    "images": [
+      "images/Kolye/MKL0016/image_1296 (2).webp",
+      "images/Kolye/MKL0016/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Kelebek Tasarım Luxury Kolye",
+    "sku": "MKL0018",
+    "category": "Kolye",
+    "price": 500,
+    "images": [
+      "images/Kolye/MKL0018/image_1296 (1).webp",
+      "images/Kolye/MKL0018/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kafası Tektaş Kanatları Zirkonlu Melek Tasarım Çelik Kolye",
+    "sku": "MKL0020",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0020/image_1296 (1).webp",
+      "images/Kolye/MKL0020/image_1296 (2).webp",
+      "images/Kolye/MKL0020/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkon Taşlı Yunus Tasarım Çelik Kolye",
+    "sku": "MKL0022",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0022/image_1296 (1).webp",
+      "images/Kolye/MKL0022/image_1296 (3).webp",
+      "images/Kolye/MKL0022/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Köşesi Zirkonlu Dövme Kare Tasarım Çelik Kolye",
+    "sku": "MKL0024",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0024/image_1296 (1).webp",
+      "images/Kolye/MKL0024/image_1296 (2).webp",
+      "images/Kolye/MKL0024/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkon Ve Sedef Taşlı boyutlu kelebek tasarım Çelik Kolye",
+    "sku": "MKL0026",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0026/image_1296 (3).webp",
+      "images/Kolye/MKL0026/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kristal Ve Zirkon Taşlı vanguard tasarım Çelik Kolye",
+    "sku": "MKL0028",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0028/image_1296 (1).webp",
+      "images/Kolye/MKL0028/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kanatları Zirkon Ve Kristal Taşlı Peri Tasarım Çelik Kolye",
+    "sku": "MKL0030",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0030/image_1296 (1).webp",
+      "images/Kolye/MKL0030/image_1296 (2).webp",
+      "images/Kolye/MKL0030/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkon Ve Kristal Taşlı Büyük Çiçek Tasarım Çelik Kolye",
+    "sku": "MKL0032",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0032/image_1296 (3).webp",
+      "images/Kolye/MKL0032/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kristal Taşlı Üçlü Çiçek Tasarım Çelik Kolye",
+    "sku": "MKL0034",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0034/image_1296 (1).webp",
+      "images/Kolye/MKL0034/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Damla Taşlı Kraliçe Tacı Tasarım Çelik",
+    "sku": "MKL0036",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0036/image_1296 (2).webp",
+      "images/Kolye/MKL0036/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kristal Taşlı Ortası Çarkıfelek Kare Tasarım Çelik Kolye",
+    "sku": "MKL0038",
+    "category": "Kolye",
+    "price": 280,
+    "images": [
+      "images/Kolye/MKL0038/image_1296 (1).webp",
+      "images/Kolye/MKL0038/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Minimal Topçuk Ve Seyrek Büyük Topçuklu 45 Cm Luxury Kolye",
+    "sku": "MKL0040",
+    "category": "Kolye",
+    "price": 330,
+    "images": [
+      "images/Kolye/MKL0040/image_1296 (2).webp",
+      "images/Kolye/MKL0040/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Parıltılı Çok Halkalı Zincir 45 Cm Luxury Kolye ",
+    "sku": "MKL0042",
+    "category": "Kolye",
+    "price": 680,
+    "images": [
+      "images/Kolye/MKL0042/image_1296 (1).webp",
+      "images/Kolye/MKL0042/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Seyrek Topçuklu Minimal Zincir 45 Cm Luxury Kolye",
+    "sku": "MKL0044",
+    "category": "Kolye",
+    "price": 330,
+    "images": [
+      "images/Kolye/MKL0044/image_1296 (2).webp",
+      "images/Kolye/MKL0044/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Mini Parlak Topçuklu 45 Cm Luxury Kolye",
+    "sku": "MKL0046",
+    "category": "Kolye",
+    "price": 400,
+    "images": [
+      "images/Kolye/MKL0046/image_1296 (1).webp",
+      "images/Kolye/MKL0046/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Sargılı Minimal Zincir 45 Cm Luxury Kolye",
+    "sku": "MKL0048",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0048/image-1080-142.webp",
+      "images/Kolye/MKL0048/image-1080-143.webp"
+    ]
+  },
+  {
+    "name": "Gold Dikdörtgen Yuvarlak Ve Arpa Tektaş Tasarim 45 cm Çelik Kolye",
+    "sku": "MKL0050",
+    "category": "Kolye",
+    "price": 300,
+    "images": [
+      "images/Kolye/MKL0050/image_1296 (1).webp",
+      "images/Kolye/MKL0050/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Zirkonlu Yildiz İçinde Tektaş Yildiz Tasarim 45 cm Çelik Kolye",
+    "sku": "MKL0052",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0052/image_1296 (2).webp",
+      "images/Kolye/MKL0052/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Kalp İçinde Dönen Zirkonlu Kalp 45 cm Çelik Kolye",
+    "sku": "MKL0054",
+    "category": "Kolye",
+    "price": 250,
+    "images": [
+      "images/Kolye/MKL0054/image_1296 (1).webp",
+      "images/Kolye/MKL0054/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Yuvarlak Tasarım Luxury Kolye",
+    "sku": "MKL0056",
+    "category": "Kolye",
+    "price": 600,
+    "images": [
+      "images/Kolye/MKL0056/image_1296 (1).webp",
+      "images/Kolye/MKL0056/image_1296 (2).webp",
+      "images/Kolye/MKL0056/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Mavi Sedef Detay Zirkon Taşlı Üçlü Kutup Yıldızı Tasarım Luxury Şahmeran",
+    "sku": "MSH0002",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0002/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkonlu Üç Çiçek Tasarım Luxury Şahmeran",
+    "sku": "MSH0004",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0004/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Mini Suyolu Tasarım Yıldız Sallantılı Luxury Şahmeran",
+    "sku": "MSH0006",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0006/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Kelepçe Detay Taşlı Kar Tanesi Tasarım Luxury Şahmeran",
+    "sku": "MSH0008",
+    "category": "Şahmeran",
+    "price": 430,
+    "images": [
+      "images/Şahmeran/MSH0008/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkonlu Üçlü Dikdörtgen Tasarım Luxury Şahmeran",
+    "sku": "MSH0010",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Kelepçe Detay Kırmızı Taşlı Zirkonlu Kare Tasarım Luxury Şahmeran",
+    "sku": "MSH0012",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0012/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Sıralı Geometrik Renkli Taş Tasarım Luxury Şahmeran",
+    "sku": "MSH0014",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0014/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Monaco Çakıl Taşı Tasarım Luxury Şahmeran",
+    "sku": "MSH0016",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0016/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "14k Gold Kelepçe Detay Üçgen Nazar Gözü Tasarım Luxury Şahmeran",
+    "sku": "MSH0018",
+    "category": "Şahmeran",
+    "price": 430,
+    "images": [
+      "images/Şahmeran/MSH0018/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Sıralı Üç Kalpli Tasarım Çelik Şahmeran",
+    "sku": "MSH0020",
+    "category": "Şahmeran",
+    "price": 330,
+    "images": [
+      "images/Şahmeran/MSH0020/image_1296 (1).webp"
+    ]
+  },
+  {
+    "name": "Gold Yuvarlak Ve Dikdörtgen Taş Detay Zincir Çelik Şahmeran",
+    "sku": "MSH0022",
+    "category": "Şahmeran",
+    "price": 330,
+    "images": [
+      "images/Şahmeran/MSH0022/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Büyük Ve Küçük Kutup Yıldızı Luxury Şahmeran",
+    "sku": "MSH0024",
+    "category": "Şahmeran",
+    "price": 450,
+    "images": [
+      "images/Şahmeran/MSH0024/ash1272.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Çift Zincirli V Tasarım Luxury Şahmeran",
+    "sku": "MSH0026",
+    "category": "Şahmeran",
+    "price": 450,
+    "images": [
+      "images/Şahmeran/MSH0026/ash1276.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Taşlı Ve Taşsız Sıralı Yıldız Tasarım Luxury Şahmeran ",
+    "sku": "MSH0028",
+    "category": "Şahmeran",
+    "price": 400,
+    "images": [
+      "images/Şahmeran/MSH0028/ash1288.webp"
+    ]
   }
 ]
