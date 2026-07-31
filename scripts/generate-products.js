@@ -18,10 +18,12 @@ const DATABASE_ID = process.env.NOTION_DATABASE_ID;
 // ======================================================
 
 const PROPERTIES = {
-    NAME: "Ürün Adı",
+    NAME: "Product Name",
     SKU: "SKU",
-    CATEGORY: "Kategori",
-    PRICE: "Satış Fiyatı (TR)",
+    CATEGORY: "Category",
+    PRICE: "Price",
+    STATUS: "Status",
+    BADGES: "Badges",
 };
 
 // ======================================================
@@ -52,6 +54,13 @@ function getSelect(page, property) {
 // Number alanını oku
 function getNumber(page, property) {
     return page.properties[property]?.number ?? 0;
+}
+
+// Multi Select alanını oku
+function getMultiSelect(page, property) {
+    return (
+        page.properties[property]?.multi_select?.map(item => item.name) ?? []
+    );
 }
 
 // ======================================================
@@ -104,6 +113,26 @@ async function fetchAllPages() {
 }
 
 // ======================================================
+// Create Product
+// ======================================================
+
+function createProduct(page) {
+
+    const category = getSelect(page, PROPERTIES.CATEGORY);
+    const sku = getRichText(page, PROPERTIES.SKU);
+
+    return {
+        name: getTitle(page, PROPERTIES.NAME),
+        sku,
+        category,
+        price: getNumber(page, PROPERTIES.PRICE),
+        status: getSelect(page, PROPERTIES.STATUS),
+        badges: getMultiSelect(page, PROPERTIES.BADGES),
+        images: getImages(category, sku),
+    };
+}
+
+// ======================================================
 // Main
 // ======================================================
 
@@ -111,23 +140,9 @@ async function main() {
 
     const pages = await fetchAllPages();
 
-    const products = pages.map(page => {
-
-        const category = getSelect(page, PROPERTIES.CATEGORY);
-        const sku = getRichText(page, PROPERTIES.SKU);
-
-        return {
-
-            name: getTitle(page, PROPERTIES.NAME),
-            sku,
-            category,
-            price: getNumber(page, PROPERTIES.PRICE),
-
-            images: getImages(category, sku),
-
-        };
-
-    });
+    const products = pages
+        .map(createProduct)
+        .filter(product => product.status !== "Hidden"); // Hidden'ları filtrele
 
     // Ürünleri SKU'ya göre sırala
     products.sort((a, b) => a.sku.localeCompare(b.sku));
