@@ -264,12 +264,11 @@ function filterProducts() {
 
     const search = searchInput.value.toLowerCase().trim();
 
-    const activeCategory =
-        document.querySelector("#categories .active").textContent.trim();
+    const activeCategory = document.querySelector("#categories .active").dataset.category;
 
     let filtered = allProducts;
 
-    if (activeCategory !== "Tümü") {
+    if (activeCategory !== "All") {
 
         filtered = filtered.filter(product =>
             product.category === activeCategory
