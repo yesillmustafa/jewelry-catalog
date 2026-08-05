@@ -1,18 +1,5 @@
 [
   {
-    "name": "Gold Minimal Suyolu Ortada Üç Dikdörtgen Kristal Taşlı Tasarım Çelik Bileklik",
-    "sku": "MBL0002",
-    "category": "Bracelets",
-    "price": 430,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Bracelets/MBL0002/image_1296 (1).webp",
-      "images/Bracelets/MBL0002/image_1296 (2).webp",
-      "images/Bracelets/MBL0002/image_1296.webp"
-    ]
-  },
-  {
     "name": "14k Gold Kalın Figaro Zincir Luxury Bileklik",
     "sku": "MBL0004",
     "category": "Bracelets",
@@ -46,18 +33,6 @@
     "images": [
       "images/Bracelets/MBL0008/image_1296 (2).webp",
       "images/Bracelets/MBL0008/image_1296.webp"
-    ]
-  },
-  {
-    "name": "14k Gold Zirkon Detay Renkli Taşlı Künye Tasarım Luxury Bileklik",
-    "sku": "MBL0010",
-    "category": "Bracelets",
-    "price": 1000,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Bracelets/MBL0010/image_1296 (1).webp",
-      "images/Bracelets/MBL0010/image_1296.webp"
     ]
   },
   {
@@ -228,21 +203,6 @@
     ]
   },
   {
-    "name": "14k Gold Zirkon zaragoza tasarım Luxury Bileklik",
-    "sku": "MBL0038",
-    "category": "Bracelets",
-    "price": 1000,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Bracelets/MBL0038/image_1296 (1).webp",
-      "images/Bracelets/MBL0038/image_1296 (2).webp",
-      "images/Bracelets/MBL0038/image_1296.webp"
-    ]
-  },
-  {
     "name": "14k Gold Zirkon Detay Düğümlü Kalın Ataç Zincir Tasarım Luxury Bileklik",
     "sku": "MBL0040",
     "category": "Bracelets",
@@ -256,19 +216,6 @@
     ]
   },
   {
-    "name": "14k Gold Bitişik Piramit Tasarım Luxury Bileklik",
-    "sku": "MBL0042",
-    "category": "Bracelets",
-    "price": 800,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Bracelets/MBL0042/image_1296 (1).webp",
-      "images/Bracelets/MBL0042/image_1296 (2).webp",
-      "images/Bracelets/MBL0042/image_1296.webp"
-    ]
-  },
-  {
     "name": "14K Gold Ortası Büyük Kare Tektaşlı Suyolu Luxury Bileklik",
     "sku": "MBL0044",
     "category": "Bracelets",
@@ -279,18 +226,6 @@
       "images/Bracelets/MBL0044/image_1296 (1).webp",
       "images/Bracelets/MBL0044/image_1296 (3).webp",
       "images/Bracelets/MBL0044/image_1296.webp"
-    ]
-  },
-  {
-    "name": "Gold Minimal Suyolu Tasarım Kalp Tektaş Detay Çelik Bileklik",
-    "sku": "MBL0048",
-    "category": "Bracelets",
-    "price": 430,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Bracelets/MBL0048/abl7557-1.webp",
-      "images/Bracelets/MBL0048/abl7557.webp"
     ]
   },
   {
@@ -394,23 +329,6 @@
     ]
   },
   {
-    "name": "14K Gold Asimetrik Zincir Taş Sallantılı Stefany Küpe",
-    "sku": "MKE0002",
-    "category": "Earrings",
-    "price": 400,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0002/1.webp",
-      "images/Earrings/MKE0002/image_1296 - 2026-07-24T202023.660.webp",
-      "images/Earrings/MKE0002/image_1296 (1).webp",
-      "images/Earrings/MKE0002/image_1296.webp",
-      "images/Earrings/MKE0002/makro.webp",
-      "images/Earrings/MKE0002/model2.webp",
-      "images/Earrings/MKE0002/studio.webp"
-    ]
-  },
-  {
     "name": "14K Gold Çerçeveli Sedefli Düzensiz Damla Tasarım Stefany Küpe",
     "sku": "MKE0004",
     "category": "Earrings",
@@ -422,25 +340,6 @@
       "images/Earrings/MKE0004/image_1296 (2).webp",
       "images/Earrings/MKE0004/image_1296.webp",
       "images/Earrings/MKE0004/onhand.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Yuvarlak Kemik Sallantılı Stefany Küpe",
-    "sku": "MKE0006",
-    "category": "Earrings",
-    "price": 400,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0006/1.webp",
-      "images/Earrings/MKE0006/image_1296 (1).webp",
-      "images/Earrings/MKE0006/image_1296 (2).webp",
-      "images/Earrings/MKE0006/image_1296.webp",
-      "images/Earrings/MKE0006/makro.webp",
-      "images/Earrings/MKE0006/model2.webp",
-      "images/Earrings/MKE0006/onhand.webp",
-      "images/Earrings/MKE0006/studio.webp",
-      "images/Earrings/MKE0006/studio2.webp"
     ]
   },
   {
@@ -522,63 +421,6 @@
     ]
   },
   {
-    "name": "14K Gold Kare Tasarım Kaplan Gözü Taşlı Stefany Küpe",
-    "sku": "MKE0016",
-    "category": "Earrings",
-    "price": 370,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0016/1.webp",
-      "images/Earrings/MKE0016/image_1296 (1).webp",
-      "images/Earrings/MKE0016/image_1296 (3).webp",
-      "images/Earrings/MKE0016/image_1296.webp",
-      "images/Earrings/MKE0016/makro.webp",
-      "images/Earrings/MKE0016/model.webp",
-      "images/Earrings/MKE0016/model2.webp",
-      "images/Earrings/MKE0016/onhand.webp",
-      "images/Earrings/MKE0016/studio.webp",
-      "images/Earrings/MKE0016/studio2.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Silver Desenli Çiçek Tasarım Stefany Küpe",
-    "sku": "MKE0018",
-    "category": "Earrings",
-    "price": 400,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0018/1.webp",
-      "images/Earrings/MKE0018/2.webp",
-      "images/Earrings/MKE0018/3.webp",
-      "images/Earrings/MKE0018/image_1296 (2).webp",
-      "images/Earrings/MKE0018/image_1296.webp",
-      "images/Earrings/MKE0018/model.webp",
-      "images/Earrings/MKE0018/model2.webp",
-      "images/Earrings/MKE0018/onhand.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Zirkon Ve Damla Taş Detay Kanat Sallantılı Glory Küpe",
-    "sku": "MKE0020",
-    "category": "Earrings",
-    "price": 550,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0020/1.webp",
-      "images/Earrings/MKE0020/düz.png",
-      "images/Earrings/MKE0020/image_1296 (1).webp",
-      "images/Earrings/MKE0020/image_1296.webp",
-      "images/Earrings/MKE0020/makro.webp",
-      "images/Earrings/MKE0020/onhand.webp",
-      "images/Earrings/MKE0020/studio.webp"
-    ]
-  },
-  {
     "name": "14K Gold Sıralı Tektaş N Sallantılı Damla Taşlı Glory Küpe",
     "sku": "MKE0022",
     "category": "Earrings",
@@ -622,24 +464,6 @@
     ]
   },
   {
-    "name": "14K Gold Zirkonlu Ve İncili Kare Tasarım Sallantılı Glory Küpe",
-    "sku": "MKE0028",
-    "category": "Earrings",
-    "price": 500,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0028/1.webp",
-      "images/Earrings/MKE0028/image_1296 (1).webp",
-      "images/Earrings/MKE0028/image_1296.webp",
-      "images/Earrings/MKE0028/model.webp",
-      "images/Earrings/MKE0028/model2.webp",
-      "images/Earrings/MKE0028/onhand.webp",
-      "images/Earrings/MKE0028/studio.webp",
-      "images/Earrings/MKE0028/studio2.webp"
-    ]
-  },
-  {
     "name": "14K Gold Zirkon Ve Kristal Taş Kanatlı Sallantılı Glory Küpe",
     "sku": "MKE0030",
     "category": "Earrings",
@@ -674,27 +498,6 @@
       "images/Earrings/MKE0040/onhand.webp",
       "images/Earrings/MKE0040/studio.webp",
       "images/Earrings/MKE0040/studio2.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Siyah Sedefli Zirkonlu Halka Glory Küpe",
-    "sku": "MKE0042",
-    "category": "Earrings",
-    "price": 450,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0042/1.webp",
-      "images/Earrings/MKE0042/image_1296 (2).webp",
-      "images/Earrings/MKE0042/image_1296.webp",
-      "images/Earrings/MKE0042/model.webp",
-      "images/Earrings/MKE0042/model2.webp",
-      "images/Earrings/MKE0042/model3.webp",
-      "images/Earrings/MKE0042/onhand.webp",
-      "images/Earrings/MKE0042/studio.webp",
-      "images/Earrings/MKE0042/studio2.webp"
     ]
   },
   {
@@ -733,34 +536,6 @@
     ]
   },
   {
-    "name": "14K Gold Zirkon Taşlı Sallantılı Kalpler Glory Küpe",
-    "sku": "MKE0048",
-    "category": "Earrings",
-    "price": 500,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0048/image_1296 (2).webp",
-      "images/Earrings/MKE0048/image_1296.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Zirkon Detay Dalgalı Oval Daire Sallantılı Glory Küpe",
-    "sku": "MKE0050",
-    "category": "Earrings",
-    "price": 500,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0050/image_1296 (1).webp",
-      "images/Earrings/MKE0050/image_1296.webp"
-    ]
-  },
-  {
     "name": "Silver Zirkon Bağlantılı Kare Tektaşlı Sallantılı Glory Küpe",
     "sku": "MKE0052",
     "category": "Earrings",
@@ -770,18 +545,6 @@
     "images": [
       "images/Earrings/MKE0052/image_1296 (2).webp",
       "images/Earrings/MKE0052/image_1296.webp"
-    ]
-  },
-  {
-    "name": "14K Gold Oval İnci Sallantılı Kelebek Ve Çiçek Topçuk Altılı Çoklu Küpeler",
-    "sku": "MKE0054",
-    "category": "Earrings",
-    "price": 330,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0054/image_1296 (1).webp",
-      "images/Earrings/MKE0054/image_1296.webp"
     ]
   },
   {
@@ -830,20 +593,6 @@
     "images": [
       "images/Earrings/MKE0062/image_1296 (1).webp",
       "images/Earrings/MKE0062/image_1296.webp"
-    ]
-  },
-  {
-    "name": "Gold Asimetrik Dikey Taş Tasarım Glory Küpe",
-    "sku": "MKE0064",
-    "category": "Earrings",
-    "price": 480,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0064/image_1296 (2).webp",
-      "images/Earrings/MKE0064/image_1296.webp"
     ]
   },
   {
@@ -969,21 +718,6 @@
     ]
   },
   {
-    "name": "Gold Bombe Büyük Boy Halka Çelik Küpe",
-    "sku": "MKE0086",
-    "category": "Earrings",
-    "price": 140,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0086/10290.webp",
-      "images/Earrings/MKE0086/image_1296 (2).webp",
-      "images/Earrings/MKE0086/image_1296.webp"
-    ]
-  },
-  {
     "name": "Gold Kalın Boru Büyük Boy Halka Çelik Küpe",
     "sku": "MKE0088",
     "category": "Earrings",
@@ -1010,21 +744,6 @@
     ]
   },
   {
-    "name": "Gold Ataç Küçük Boy Halka Çelik Küpe",
-    "sku": "MKE0092",
-    "category": "Earrings",
-    "price": 120,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Earrings/MKE0092/image_1296 (1).webp",
-      "images/Earrings/MKE0092/image_1296 (3).webp",
-      "images/Earrings/MKE0092/image_1296.webp"
-    ]
-  },
-  {
     "name": "Gold Ataç Orta Boy Halka Çelik Küpe",
     "sku": "MKE0094",
     "category": "Earrings",
@@ -1035,19 +754,6 @@
       "images/Earrings/MKE0094/image_1296 (1).webp",
       "images/Earrings/MKE0094/image_1296 (2).webp",
       "images/Earrings/MKE0094/image_1296.webp"
-    ]
-  },
-  {
-    "name": "Gold Ataç Büyük Boy Halka Çelik Küpe",
-    "sku": "MKE0096",
-    "category": "Earrings",
-    "price": 140,
-    "status": "Available",
-    "badges": [],
-    "images": [
-      "images/Earrings/MKE0096/image_1296 (1).webp",
-      "images/Earrings/MKE0096/image_1296 (3).webp",
-      "images/Earrings/MKE0096/image_1296.webp"
     ]
   },
   {
@@ -1415,20 +1121,6 @@
     ]
   },
   {
-    "name": "14k Gold Seyrek Topçuklu Minimal Zincir 45 Cm Luxury Kolye",
-    "sku": "MKL0044",
-    "category": "Necklaces",
-    "price": 330,
-    "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
-    "images": [
-      "images/Necklaces/MKL0044/image_1296 (2).webp",
-      "images/Necklaces/MKL0044/image_1296.webp"
-    ]
-  },
-  {
     "name": "14k Gold Mini Parlak Topçuklu 45 Cm Luxury Kolye",
     "sku": "MKL0046",
     "category": "Necklaces",
@@ -1674,14 +1366,302 @@
     ]
   },
   {
+    "name": "Gold Minimal Suyolu Ortada Üç Dikdörtgen Kristal Taşlı Tasarım Çelik Bileklik",
+    "sku": "MBL0002",
+    "category": "Bracelets",
+    "price": 430,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Bracelets/MBL0002/image_1296 (1).webp",
+      "images/Bracelets/MBL0002/image_1296 (2).webp",
+      "images/Bracelets/MBL0002/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon Detay Renkli Taşlı Künye Tasarım Luxury Bileklik",
+    "sku": "MBL0010",
+    "category": "Bracelets",
+    "price": 1000,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Bracelets/MBL0010/image_1296 (1).webp",
+      "images/Bracelets/MBL0010/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Zirkon zaragoza tasarım Luxury Bileklik",
+    "sku": "MBL0038",
+    "category": "Bracelets",
+    "price": 1000,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Bracelets/MBL0038/image_1296 (1).webp",
+      "images/Bracelets/MBL0038/image_1296 (2).webp",
+      "images/Bracelets/MBL0038/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Bitişik Piramit Tasarım Luxury Bileklik",
+    "sku": "MBL0042",
+    "category": "Bracelets",
+    "price": 800,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Bracelets/MBL0042/image_1296 (1).webp",
+      "images/Bracelets/MBL0042/image_1296 (2).webp",
+      "images/Bracelets/MBL0042/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Minimal Suyolu Tasarım Kalp Tektaş Detay Çelik Bileklik",
+    "sku": "MBL0048",
+    "category": "Bracelets",
+    "price": 430,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Bracelets/MBL0048/abl7557-1.webp",
+      "images/Bracelets/MBL0048/abl7557.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Asimetrik Zincir Taş Sallantılı Stefany Küpe",
+    "sku": "MKE0002",
+    "category": "Earrings",
+    "price": 400,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0002/1.webp",
+      "images/Earrings/MKE0002/image_1296 - 2026-07-24T202023.660.webp",
+      "images/Earrings/MKE0002/image_1296 (1).webp",
+      "images/Earrings/MKE0002/image_1296.webp",
+      "images/Earrings/MKE0002/makro.webp",
+      "images/Earrings/MKE0002/model2.webp",
+      "images/Earrings/MKE0002/studio.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Yuvarlak Kemik Sallantılı Stefany Küpe",
+    "sku": "MKE0006",
+    "category": "Earrings",
+    "price": 400,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0006/1.webp",
+      "images/Earrings/MKE0006/image_1296 (1).webp",
+      "images/Earrings/MKE0006/image_1296 (2).webp",
+      "images/Earrings/MKE0006/image_1296.webp",
+      "images/Earrings/MKE0006/makro.webp",
+      "images/Earrings/MKE0006/model2.webp",
+      "images/Earrings/MKE0006/onhand.webp",
+      "images/Earrings/MKE0006/studio.webp",
+      "images/Earrings/MKE0006/studio2.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Kare Tasarım Kaplan Gözü Taşlı Stefany Küpe",
+    "sku": "MKE0016",
+    "category": "Earrings",
+    "price": 370,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0016/1.webp",
+      "images/Earrings/MKE0016/image_1296 (1).webp",
+      "images/Earrings/MKE0016/image_1296 (3).webp",
+      "images/Earrings/MKE0016/image_1296.webp",
+      "images/Earrings/MKE0016/makro.webp",
+      "images/Earrings/MKE0016/model.webp",
+      "images/Earrings/MKE0016/model2.webp",
+      "images/Earrings/MKE0016/onhand.webp",
+      "images/Earrings/MKE0016/studio.webp",
+      "images/Earrings/MKE0016/studio2.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Silver Desenli Çiçek Tasarım Stefany Küpe",
+    "sku": "MKE0018",
+    "category": "Earrings",
+    "price": 400,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0018/1.webp",
+      "images/Earrings/MKE0018/2.webp",
+      "images/Earrings/MKE0018/3.webp",
+      "images/Earrings/MKE0018/image_1296 (2).webp",
+      "images/Earrings/MKE0018/image_1296.webp",
+      "images/Earrings/MKE0018/model.webp",
+      "images/Earrings/MKE0018/model2.webp",
+      "images/Earrings/MKE0018/onhand.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Ve Damla Taş Detay Kanat Sallantılı Glory Küpe",
+    "sku": "MKE0020",
+    "category": "Earrings",
+    "price": 550,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0020/1.webp",
+      "images/Earrings/MKE0020/düz.png",
+      "images/Earrings/MKE0020/image_1296 (1).webp",
+      "images/Earrings/MKE0020/image_1296.webp",
+      "images/Earrings/MKE0020/makro.webp",
+      "images/Earrings/MKE0020/onhand.webp",
+      "images/Earrings/MKE0020/studio.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkonlu Ve İncili Kare Tasarım Sallantılı Glory Küpe",
+    "sku": "MKE0028",
+    "category": "Earrings",
+    "price": 500,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0028/1.webp",
+      "images/Earrings/MKE0028/image_1296 (1).webp",
+      "images/Earrings/MKE0028/image_1296.webp",
+      "images/Earrings/MKE0028/model.webp",
+      "images/Earrings/MKE0028/model2.webp",
+      "images/Earrings/MKE0028/onhand.webp",
+      "images/Earrings/MKE0028/studio.webp",
+      "images/Earrings/MKE0028/studio2.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Siyah Sedefli Zirkonlu Halka Glory Küpe",
+    "sku": "MKE0042",
+    "category": "Earrings",
+    "price": 450,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0042/1.webp",
+      "images/Earrings/MKE0042/image_1296 (2).webp",
+      "images/Earrings/MKE0042/image_1296.webp",
+      "images/Earrings/MKE0042/model.webp",
+      "images/Earrings/MKE0042/model2.webp",
+      "images/Earrings/MKE0042/model3.webp",
+      "images/Earrings/MKE0042/onhand.webp",
+      "images/Earrings/MKE0042/studio.webp",
+      "images/Earrings/MKE0042/studio2.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Taşlı Sallantılı Kalpler Glory Küpe",
+    "sku": "MKE0048",
+    "category": "Earrings",
+    "price": 500,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0048/image_1296 (2).webp",
+      "images/Earrings/MKE0048/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Zirkon Detay Dalgalı Oval Daire Sallantılı Glory Küpe",
+    "sku": "MKE0050",
+    "category": "Earrings",
+    "price": 500,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0050/image_1296 (1).webp",
+      "images/Earrings/MKE0050/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14K Gold Oval İnci Sallantılı Kelebek Ve Çiçek Topçuk Altılı Çoklu Küpeler",
+    "sku": "MKE0054",
+    "category": "Earrings",
+    "price": 330,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0054/image_1296 (1).webp",
+      "images/Earrings/MKE0054/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Asimetrik Dikey Taş Tasarım Glory Küpe",
+    "sku": "MKE0064",
+    "category": "Earrings",
+    "price": 480,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0064/image_1296 (2).webp",
+      "images/Earrings/MKE0064/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Bombe Büyük Boy Halka Çelik Küpe",
+    "sku": "MKE0086",
+    "category": "Earrings",
+    "price": 140,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0086/10290.webp",
+      "images/Earrings/MKE0086/image_1296 (2).webp",
+      "images/Earrings/MKE0086/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Ataç Küçük Boy Halka Çelik Küpe",
+    "sku": "MKE0092",
+    "category": "Earrings",
+    "price": 120,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0092/image_1296 (1).webp",
+      "images/Earrings/MKE0092/image_1296 (3).webp",
+      "images/Earrings/MKE0092/image_1296.webp"
+    ]
+  },
+  {
+    "name": "Gold Ataç Büyük Boy Halka Çelik Küpe",
+    "sku": "MKE0096",
+    "category": "Earrings",
+    "price": 140,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Earrings/MKE0096/image_1296 (1).webp",
+      "images/Earrings/MKE0096/image_1296 (3).webp",
+      "images/Earrings/MKE0096/image_1296.webp"
+    ]
+  },
+  {
+    "name": "14k Gold Seyrek Topçuklu Minimal Zincir 45 Cm Luxury Kolye",
+    "sku": "MKL0044",
+    "category": "Necklaces",
+    "price": 330,
+    "status": "Sold Out",
+    "badges": [],
+    "images": [
+      "images/Necklaces/MKL0044/image_1296 (2).webp",
+      "images/Necklaces/MKL0044/image_1296.webp"
+    ]
+  },
+  {
     "name": "14k Gold Zirkon Taşlı Ve Taşsız Sıralı Yıldız Tasarım Luxury Şahmeran ",
     "sku": "MSH0028",
     "category": "Hand-Chains",
     "price": 400,
     "status": "Sold Out",
-    "badges": [
-      "Best Seller"
-    ],
+    "badges": [],
     "images": [
       "images/Hand-Chains/MSH0028/ash1288.webp"
     ]
