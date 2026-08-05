@@ -236,21 +236,22 @@ header {
 
     margin-top:12px;
 
-    padding:6px 12px;
+    padding:5px 12px;
 
     border-radius:999px;
 
-    font-size:12px;
+    font-size:11px;
 
     font-weight:600;
 
     text-transform:uppercase;
 
+    letter-spacing:.4px;
 }
 
 .sold-out-badge{
 
-    background:#d9534f;
+    background:#9f3f3f;
 
     color:#fff;
 
@@ -367,9 +368,9 @@ header {
 
     margin-top: 10px;
 
-    color: gray;
+    color:#8a8a8a;
 
-    font-size: 14px;
+    font-size: 13px;
 
 }
 
@@ -377,11 +378,11 @@ header {
 
     margin-top: 15px;
 
-    color: #c89b3c;
+    color:#B8860B;
 
-    font-size: 24px;
+    font-size: 28px;
 
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
