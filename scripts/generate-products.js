@@ -26,6 +26,12 @@ const PROPERTIES = {
     BADGES: "Badges",
 };
 
+// Status öncelikleri
+const STATUS_ORDER = {
+    "Available": 0,
+    "Sold Out": 1,
+};
+
 // ======================================================
 // Property Helpers
 // ======================================================
@@ -144,8 +150,21 @@ async function main() {
         .map(createProduct)
         .filter(product => product.status !== "Hidden"); // Hidden'ları filtrele
 
-    // Ürünleri SKU'ya göre sırala
-    products.sort((a, b) => a.sku.localeCompare(b.sku));
+    // Ürün Sıralama
+    products.sort((a, b) => {
+
+        const orderA = STATUS_ORDER[a.status] ?? 999;
+        const orderB = STATUS_ORDER[b.status] ?? 999;
+
+        // Önce status'a göre sırala
+        if (orderA !== orderB) {
+            return orderA - orderB;
+        }
+
+        // Aynı status'teyse SKU'ya göre sırala
+        return a.sku.localeCompare(b.sku);
+
+    });
 
     // products.json oluştur
     fs.writeFileSync(

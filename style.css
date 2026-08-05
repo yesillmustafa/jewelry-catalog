@@ -227,6 +227,46 @@ header {
 }
 
 /* ===========================
+   STATUS BADGES
+=========================== */
+
+.status-badge{
+
+    display:inline-block;
+
+    margin-top:12px;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    text-transform:uppercase;
+
+}
+
+.sold-out-badge{
+
+    background:#d9534f;
+
+    color:#fff;
+
+}
+
+/* ===========================
+   SOLD OUT CARD
+=========================== */
+
+/* .card.sold-out{
+
+    opacity:.75;
+
+} */
+
+/* ===========================
    IMAGE
 =========================== */
 

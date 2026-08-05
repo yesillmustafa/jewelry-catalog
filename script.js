@@ -132,6 +132,36 @@ fetch("products.json")
             "<p>Ürünler yüklenirken bir hata oluştu.</p>";
     });
 
+
+// ===============================
+// Status Badge
+// ===============================
+
+function getStatusBadge(status) {
+
+    switch (status) {
+
+        case "Sold Out":
+            return `<div class="status-badge sold-out-badge">Tükendi</div>`;
+
+        default:
+            return "";
+    }
+
+}
+
+// ===============================
+// Badge
+// ===============================
+
+// function getBadges(badges) {
+
+//     return badges.map(badge =>
+//         `<span class="badge badge-${badge.toLowerCase().replace(/\s+/g, "-")}">${badge}</span>`
+//     ).join("");
+
+// }
+
 // ===============================
 // Ürünleri çiz
 // ===============================
@@ -145,7 +175,11 @@ function renderProducts(products) {
         let currentImage = 0;
 
         const card = document.createElement("div");
-        card.className = "card";
+
+        card.className =
+            product.status === "Sold Out"
+                ? "card sold-out"
+                : "card";
 
         card.innerHTML = `
 
@@ -172,6 +206,8 @@ function renderProducts(products) {
                 <p class="price">
                     ${Number(product.price).toLocaleString("tr-TR")} ₺
                 </p>
+
+                ${getStatusBadge(product.status)}
 
             </div>
 
